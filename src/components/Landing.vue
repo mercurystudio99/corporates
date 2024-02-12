@@ -188,6 +188,73 @@ defineProps({
         </div>
       </div>
     </section>
+
+    <!-- companies section -->
+    <section>
+      <div class="position-relative">
+        <h4 class="text-center my-4">Companies that trust us</h4>
+        <!-- Carousel -->
+        <div class="slider">
+          <div class="slide-track">
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (1).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (2).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (3).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (4).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (5).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (6).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (7).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (8).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (9).png" />
+            </div>
+            <!-- same slides doubled (duplicate) -->
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (1).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (2).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (3).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (4).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (5).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (6).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (7).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (8).png" />
+            </div>
+            <div class="slide">
+              <img src="../../public/assets/images/icon_company (9).png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 </div>
 </template>
 
