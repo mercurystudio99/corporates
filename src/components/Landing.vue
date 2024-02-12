@@ -451,7 +451,7 @@ defineProps({
 
     <!-- form section -->
     <section class="my-4">
-      <div class="w-75 mx-auto bg-image px-4 position-relative d-flex align-items-center rounded-4"
+      <div class="container bg-image px-4 position-relative d-flex align-items-center rounded-4"
         style="background-image: url('assets/images/bg_form.png'); background-size: cover; background-position: bottom;">
         <div class="container col-xxl-8 px-4 py-3">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
@@ -476,6 +476,50 @@ defineProps({
             </div>
             <div class="col-lg-6">
               <h1 class="display-5 fw-bold lh-1 mb-3 text-white">We look forward to a beneficial and successful partnership!</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section>
+      <div class="container">
+        <hr>
+        <div class="row">
+          <div class="col-3">
+            <img src="../../public/assets/images/logo_dark.png"/>
+          </div>
+          <div class="col-3">
+            <p class="mx-1">Follow Us</p>
+            <div class="d-flex flex-wrap">
+              <div class="border border-1 rounded-circle mx-1">
+                <img src="../../public/assets/images/contact_facebook.png" />
+              </div>
+              <div class="border border-1 rounded-circle mx-1">
+                <img src="../../public/assets/images/contact_instagram.png" />
+              </div>
+              <div class="border border-1 rounded-circle mx-1">
+                <img src="../../public/assets/images/contact_linkedin.png" />
+              </div>
+              <div class="border border-1 rounded-circle mx-1">
+                <img src="../../public/assets/images/contact_twitter.png" />
+              </div>
+              <div class="border border-1 rounded-circle mx-1">
+                <img src="../../public/assets/images/contact_web.png" />
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <p class="mx-1">Call Us</p>
+            <p class="mx-1">920026612 / 0580033345</p>
+          </div>
+          <div class="col-3">
+            <p class="mx-1">Download the app</p>
+            <div class="d-flex flex-wrap">
+              <img src="../../public/assets/images/download_appgallery.png" class="mx-1"/>
+              <img src="../../public/assets/images/download_appstore.png" class="mx-1"/>
+              <img src="../../public/assets/images/download_googleplay.png" class="mx-1"/>
             </div>
           </div>
         </div>
