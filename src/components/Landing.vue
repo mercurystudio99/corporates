@@ -31,53 +31,53 @@ defineProps({
         <!-- Carousel -->
         <div class="slider">
           <div class="slide-track">
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (1).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (2).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (3).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (4).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (5).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (6).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (7).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (8).png" />
             </div>
             <!-- same slides doubled (duplicate) -->
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (1).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (2).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (3).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (4).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (5).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (6).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (7).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_offer (8).png" />
             </div>
           </div>
@@ -196,63 +196,152 @@ defineProps({
         <!-- Carousel -->
         <div class="slider">
           <div class="slide-track">
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (1).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (2).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (3).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (4).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (5).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (6).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (7).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (8).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (9).png" />
             </div>
             <!-- same slides doubled (duplicate) -->
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (1).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (2).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (3).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (4).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (5).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (6).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (7).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (8).png" />
             </div>
-            <div class="slide">
+            <div class="slide-item">
               <img src="../../public/assets/images/icon_company (9).png" />
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- features section -->
+    <section class="position-relative">
+      <img src="../../public/assets/images/bg_feature.png" class="position-absolute end-0"/>
+      <div class="position-relative">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+              <h2 class="my-4 display-5 text-center">App Features</h2>
+            </div>
+          </div>
+        </div>
+
+        <div id="carouselFeatureIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <div data-bs-target="#carouselFeatureIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></div>
+            <div data-bs-target="#carouselFeatureIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></div>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div style="height: 300px;">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="mx-auto w-50">
+                        <div class="bg-dark rounded-4 p-4 mx-4">
+                            <img src="../../public/assets/images/icon_infinite_light.png" width="100%" height="100%" />
+                        </div>
+                        <h5 class="text-center my-4">Unlimited Discounts and offers</h5>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mx-auto w-50">
+                        <div class="bg-dark rounded-4 p-4 mx-4">
+                            <img src="../../public/assets/images/icon_phone_light.png" width="100%" height="100%" />
+                        </div>
+                        <h5 class="text-center my-4">Brands information</h5>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mx-auto w-50">
+                        <div class="bg-dark rounded-4 p-4 mx-4">
+                            <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
+                        </div>
+                        <h5 class="text-center my-4">Track your savings</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div style="height: 300px;">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="mx-auto w-50">
+                        <div class="bg-dark rounded-4 p-4 mx-4">
+                            <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
+                        </div>
+                        <h5 class="text-center my-4">Track your savings</h5>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mx-auto w-50">
+                        <div class="bg-dark rounded-4 p-4 mx-4">
+                            <img src="../../public/assets/images/icon_wallet_light.png" width="100%" height="100%" />
+                        </div>
+                        <h5 class="text-center my-4">Discounts, Guaranteed</h5>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mx-auto w-50">
+                        <div class="bg-dark rounded-4 p-4 mx-4">
+                            <img src="../../public/assets/images/icon_star_light.png" width="100%" height="100%" />
+                        </div>
+                        <h5 class="text-center my-4">Points on every transaction</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 </div>
@@ -293,14 +382,14 @@ defineProps({
   justify-content: space-between;
 }
 
-.slide {
+.slide-item {
   width: 150px;
   display: grid;
   place-items: center;
   transition:0.5s;
   cursor:pointer;
 }
-.slide:hover{
+.slide-item:hover{
   transform:scale(0.8)
 }
 
@@ -317,7 +406,7 @@ defineProps({
   .slide-track {
     width: calc(80px * 20);
   }
-  .slide {
+  .slide-item {
     width: 80px;
   }
   @keyframes scroll {
@@ -328,5 +417,13 @@ defineProps({
       transform: translateX(calc(-80px * 10));
     }
   }
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px; height: 20px;
+  background-color: gray;
+}
+.carousel-indicators .active {
+  background-color: orange;
 }
 </style>
