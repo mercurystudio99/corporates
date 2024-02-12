@@ -9,25 +9,36 @@ defineProps({
 
 <template>
   <div>
-    <div class="position-relative">
-      <div class="bg-image px-4 position-relative d-flex align-items-center"
-        style="background-image: url('assets/images/hero.png'); background-size: cover; background-position: bottom; height: 100vh;">
-        <div class="col-lg-6" style="z-index: 3">
-          <h2 class="display-5 fw-bold lh-1 mb-3 text-white lh-sm">Rewards program<br /> for corporates'<br /> employees</h2>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 rounded-pill">Get a demo</button>
+    <!-- hero section -->
+    <section>
+      <div class="position-relative">
+        <div class="bg-image px-4 position-relative"
+          style="background-image: url('assets/images/hero.png'); background-size: cover; background-position: bottom; height: 100vh;">
+          <div class="d-flex justify-content-between align-items-center">
+            <img src="../../public/assets/images/logo.png"/>
+            <div class="d-block">
+              <img src="../../public/assets/images/flag_us.png"/><span class="mx-2 text-white">English</span>
+            </div>
+          </div>
+          <div class="container my-100 mx-10">
+            <div class="col-lg-6 px-4" style="z-index: 3">
+              <h2 class="display-5 fw-bold lh-1 mb-3 text-white lh-sm">Rewards program<br /> for corporates'<br /> employees</h2>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start my-4">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 rounded-pill bg-secondary-normal border-0">Get a demo</button>
+              </div>
+            </div>
+          </div>
+          <div class="position-absolute bottom-0" style="right:8%">
+            <img width="700" src="../../public/assets/images/service.png" class="d-block " loading="lazy">
           </div>
         </div>
-        <div class="position-absolute bottom-0" style="right:8%">
-          <img width="700px" src="../../public/assets/images/service.png" class="d-block " loading="lazy">
-        </div>
       </div>
-    </div>
+    </section>
 
     <!-- offers section -->
     <section>
-      <div class="position-relative">
-        <h4 class="text-center my-4">Exclusive offers for your employees</h4>
+      <div class="position-relative my-100">
+        <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">Exclusive offers for your employees</h2>
         <!-- Carousel -->
         <div class="slider">
           <div class="slide-track">
@@ -93,63 +104,63 @@ defineProps({
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h2 class="mb-4 display-5 text-center">Corporate program services</h2>
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">Corporate program services</h2>
             </div>
           </div>
         </div>
 
         <div class="container overflow-hidden">
-          <div class="row gx-4 gy-2">
-            <div class="col-6 align-self-center">
-              <div class="border border-1 rounded-4 p-2">
+          <div class="row gx-4 gy-2 my-4">
+            <div class="col-6">
+              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_infinite_dark.png" width="50" height="50" />
-                  <span>Unlimited access to offers for all employees and their families</span>
+                  <span class="mx-2">Unlimited access to offers for all employees and their families</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-6 align-self-center">
-              <div class="border border-1 rounded-4 p-2">
+            <div class="col-6">
+              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_gift_dark.png" width="50" height="50" />
-                  <span>Purchasing and delivering gifts to the employees</span>
+                  <span class="mx-2">Purchasing and delivering gifts to the employees</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-6 align-self-center">
-              <div class="border border-1 rounded-4 p-2">
+            <div class="col-6">
+              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_wallet_dark.png" width="50" height="50" />
-                  <span>Top up wallet for employees to buy gifts</span>
+                  <span class="mx-2">Top up wallet for employees to buy gifts</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-6 align-self-center">
-              <div class="border border-1 rounded-4 p-2">
+            <div class="col-6">
+              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_tool_dark.png" width="50" height="50" />
-                  <span>Customer service to ensure your employees' satisfaction</span>
+                  <span class="mx-2">Customer service to ensure your employees' satisfaction</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-6 align-self-center">
-              <div class="border border-1 rounded-4 p-2">
+            <div class="col-6">
+              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_congrat_dark.png" width="50" height="50" />
-                  <span>Manage internal events</span>
+                  <span class="mx-2">Manage internal events</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-6 align-self-center">
-              <div class="border border-1 rounded-4 p-2">
+            <div class="col-6">
+              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_upload_dark.png" width="50" height="50" />
-                  <span>Onboarding brands by the company’s request</span>
+                  <span class="mx-2">Onboarding brands by the company’s request</span>
                 </div>
               </div>
             </div>
@@ -164,13 +175,13 @@ defineProps({
     <section>
       <div class="container">
         <div class="row justify-content-md-center">
-          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-            <h2 class="mb-4 display-5 text-center">App with your company identity</h2>
+          <div class="col-12">
+            <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">App with your company identity</h2>
           </div>
         </div>
       </div>
 
-      <div class="d-flex overflow-auto px-4">
+      <div class="d-flex overflow-auto px-4 my-4">
         <div class="mx-4">
           <img src="../../public/assets/images/phone1.png" height="500"/>
         </div>
@@ -190,9 +201,9 @@ defineProps({
     </section>
 
     <!-- companies section -->
-    <section>
+    <section class="my-100">
       <div class="position-relative">
-        <h4 class="text-center my-4">Companies that trust us</h4>
+        <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">Companies that trust us</h2>
         <!-- Carousel -->
         <div class="slider">
           <div class="slide-track">
@@ -262,13 +273,13 @@ defineProps({
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
-            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h2 class="my-4 display-5 text-center">App Features</h2>
+            <div class="col-12">
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">App Features</h2>
             </div>
           </div>
         </div>
 
-        <div id="carouselFeatureIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselFeatureIndicators" class="carousel slide my-4" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <div data-bs-target="#carouselFeatureIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></div>
             <div data-bs-target="#carouselFeatureIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></div>
@@ -280,7 +291,7 @@ defineProps({
                   <div class="row">
                     <div class="col">
                       <div class="mx-auto w-50">
-                        <div class="bg-dark rounded-4 p-4 mx-4">
+                        <div class="bg-primary-thick rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_infinite_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Unlimited Discounts and offers</h5>
@@ -288,7 +299,7 @@ defineProps({
                     </div>
                     <div class="col">
                       <div class="mx-auto w-50">
-                        <div class="bg-dark rounded-4 p-4 mx-4">
+                        <div class="bg-primary-normal rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_phone_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Brands information</h5>
@@ -296,7 +307,7 @@ defineProps({
                     </div>
                     <div class="col">
                       <div class="mx-auto w-50">
-                        <div class="bg-dark rounded-4 p-4 mx-4">
+                        <div class="bg-primary-thin rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Track your savings</h5>
@@ -313,7 +324,7 @@ defineProps({
                   <div class="row">
                     <div class="col">
                       <div class="mx-auto w-50">
-                        <div class="bg-dark rounded-4 p-4 mx-4">
+                        <div class="bg-primary-thin rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Track your savings</h5>
@@ -321,7 +332,7 @@ defineProps({
                     </div>
                     <div class="col">
                       <div class="mx-auto w-50">
-                        <div class="bg-dark rounded-4 p-4 mx-4">
+                        <div class="bg-primary-thick rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_wallet_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Discounts, Guaranteed</h5>
@@ -329,7 +340,7 @@ defineProps({
                     </div>
                     <div class="col">
                       <div class="mx-auto w-50">
-                        <div class="bg-dark rounded-4 p-4 mx-4">
+                        <div class="bg-primary-normal rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_star_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Points on every transaction</h5>
@@ -346,12 +357,12 @@ defineProps({
     </section>
 
     <!-- event section -->
-    <section>
+    <section class="my-100">
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h2 class="my-4 display-5 text-center">Previous Events</h2>
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">Previous Events</h2>
             </div>
           </div>
         </div>
@@ -414,8 +425,8 @@ defineProps({
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
-            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h2 class="my-4 display-5 text-center">This is What Our Clients said</h2>
+            <div class="col-12">
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">This is What Our Clients said</h2>
             </div>
           </div>
         </div>
@@ -423,24 +434,24 @@ defineProps({
         <div class="container overflow-hidden pb-4">
           <div class="row gx-4">
             <div class="col-4 align-self-center">
-              <div class="bg-white rounded-4 p-2">
+              <div class="bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
-                <h5 class="fw-bold lh-1 mb-3">Katie Simpson</h5>
+                <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
+                <h5 class="fw-bold text-primary-thin lh-1 mb-3">Katie Simpson</h5>
               </div>
             </div>
             <div class="col-4 align-self-center">
-              <div class="bg-white rounded-4 p-2">
+              <div class="bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
-                <h5 class="fw-bold lh-1 mb-3">Marie Ulfa</h5>
+                <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
+                <h5 class="fw-bold text-primary-thin lh-1 mb-3">Marie Ulfa</h5>
               </div>
             </div>
             <div class="col-4 align-self-center">
-              <div class="bg-white rounded-4 p-2">
+              <div class="bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
-                <h5 class="fw-bold lh-1 mb-3">Richard Blok</h5>
+                <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
+                <h5 class="fw-bold text-primary-thin lh-1 mb-3">Richard Blok</h5>
               </div>
             </div>
 
@@ -450,7 +461,7 @@ defineProps({
     </section>
 
     <!-- form section -->
-    <section class="my-4">
+    <section class="my-100">
       <div class="container bg-image px-4 position-relative d-flex align-items-center rounded-4"
         style="background-image: url('assets/images/bg_form.png'); background-size: cover; background-position: bottom;">
         <div class="container col-xxl-8 px-4 py-3">
@@ -470,7 +481,7 @@ defineProps({
                   <input type="text" class="form-control rounded-pill" placeholder="Company name">
                 </div>
                 <div class="d-grid mx-2">
-                  <button class="btn btn-primary rounded-pill" type="button">Submit</button>
+                  <button class="btn btn-primary rounded-pill bg-secondary-normal border-0" type="button">Submit</button>
                 </div>
               </div>
             </div>
@@ -491,7 +502,7 @@ defineProps({
             <img src="../../public/assets/images/logo_dark.png"/>
           </div>
           <div class="col-3">
-            <p class="mx-1">Follow Us</p>
+            <p class="mx-1 fw-bold text-primary-thick">Follow Us</p>
             <div class="d-flex flex-wrap">
               <div class="border border-1 rounded-circle mx-1">
                 <img src="../../public/assets/images/contact_facebook.png" />
@@ -511,11 +522,11 @@ defineProps({
             </div>
           </div>
           <div class="col-3">
-            <p class="mx-1">Call Us</p>
-            <p class="mx-1">920026612 / 0580033345</p>
+            <p class="mx-1 fw-bold text-primary-thick">Call Us</p>
+            <p class="mx-1 text-primary-thick">920026612 / 0580033345</p>
           </div>
           <div class="col-3">
-            <p class="mx-1">Download the app</p>
+            <p class="mx-1 fw-bold text-primary-thick">Download the app</p>
             <div class="d-flex flex-wrap">
               <img src="../../public/assets/images/download_appgallery.png" class="mx-1"/>
               <img src="../../public/assets/images/download_appstore.png" class="mx-1"/>
@@ -529,6 +540,38 @@ defineProps({
 </template>
 
 <style scoped>
+.my-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.mx-10 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.border-primary-thick {
+  border-color: #1B0C75 !important;
+}
+.text-primary-thin {
+  color: #2424FF;
+}
+.text-primary-normal {
+  color: #1F17AF;
+}
+.text-primary-thick {
+  color: #1B0C75;
+}
+.bg-primary-thin {
+  background-color: #2424FF;
+}
+.bg-primary-normal {
+  background-color: #1F17AF;
+}
+.bg-primary-thick {
+  background-color: #1B0C75;
+}
+.bg-secondary-normal {
+  background-color: #EA6838;
+}
 .slider {
   position: relative;
   width: 100%;
@@ -605,6 +648,6 @@ defineProps({
   background-color: gray;
 }
 .carousel-indicators .active {
-  background-color: orange;
+  background-color: #EA6838;
 }
 </style>
