@@ -1,7 +1,8 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import Landing from './components/Landing.vue'
+import Landing_US from './components/Landing_US.vue'
+import Landing_AR from './components/Landing_AR.vue'
 </script>
 
 <template>
@@ -15,7 +16,8 @@ import Landing from './components/Landing.vue'
 
   <main>
     <!-- <TheWelcome /> -->
-    <Landing />
+    <!-- <Landing_US /> -->
+    <Landing_AR />
   </main>
 </template>
 
