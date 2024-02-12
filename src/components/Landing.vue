@@ -345,7 +345,7 @@ defineProps({
       </div>
     </section>
 
-    <!-- features section -->
+    <!-- event section -->
     <section>
       <div class="position-relative">
         <div class="container">
@@ -408,6 +408,46 @@ defineProps({
       </div>
     </section>
 
+    <!-- testimonial section -->
+    <section class="position-relative">
+      <div class="position-absolute bg-image w-50 h-75 bottom-0" style="background-image: url('assets/images/bg_testimonial.png'); background-size: contain; background-repeat: no-repeat;"></div>
+      <div class="position-relative">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+              <h2 class="my-4 display-5 text-center">This is What Our Clients said</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="container overflow-hidden pb-4">
+          <div class="row gx-4">
+            <div class="col-4 align-self-center">
+              <div class="bg-white rounded-4 p-2">
+                <img src="../../public/assets/images/symbol.png" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
+                <h5 class="fw-bold lh-1 mb-3">Katie Simpson</h5>
+              </div>
+            </div>
+            <div class="col-4 align-self-center">
+              <div class="bg-white rounded-4 p-2">
+                <img src="../../public/assets/images/symbol.png" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
+                <h5 class="fw-bold lh-1 mb-3">Marie Ulfa</h5>
+              </div>
+            </div>
+            <div class="col-4 align-self-center">
+              <div class="bg-white rounded-4 p-2">
+                <img src="../../public/assets/images/symbol.png" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
+                <h5 class="fw-bold lh-1 mb-3">Richard Blok</h5>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
 </div>
 </template>
 
