@@ -448,6 +448,39 @@ defineProps({
         </div>
       </div>
     </section>
+
+    <!-- form section -->
+    <section class="my-4">
+      <div class="w-75 mx-auto bg-image px-4 position-relative d-flex align-items-center rounded-4"
+        style="background-image: url('assets/images/bg_form.png'); background-size: cover; background-position: bottom;">
+        <div class="container col-xxl-8 px-4 py-3">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <div class="w-80 mx-auto rounded-1 bg-white p-4">
+                <div class="mb-3 mx-2">
+                  <input type="text" class="form-control rounded-pill" placeholder="Name">
+                </div>
+                <div class="mb-3 mx-2">
+                  <input type="email" class="form-control rounded-pill" placeholder="Email">
+                </div>
+                <div class="mb-3 mx-2">
+                  <input type="text" class="form-control rounded-pill" placeholder="Mobile number">
+                </div>
+                <div class="mb-3 mx-2">
+                  <input type="text" class="form-control rounded-pill" placeholder="Company name">
+                </div>
+                <div class="d-grid mx-2">
+                  <button class="btn btn-primary rounded-pill" type="button">Submit</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3 text-white">We look forward to a beneficial and successful partnership!</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 </div>
 </template>
 
