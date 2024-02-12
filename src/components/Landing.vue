@@ -159,6 +159,35 @@ defineProps({
 
       </div>
     </section>
+
+    <!-- mobile app section -->
+    <section>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+            <h2 class="mb-4 display-5 text-center">App with your company identity</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex overflow-auto px-4">
+        <div class="mx-4">
+          <img src="../../public/assets/images/phone1.png" height="500"/>
+        </div>
+        <div class="mx-4">
+          <img src="../../public/assets/images/phone2.png" height="500"/>
+        </div>
+        <div class="mx-4">
+          <img src="../../public/assets/images/phone3.png" height="500"/>
+        </div>
+        <div class="mx-4">
+          <img src="../../public/assets/images/phone4.png" height="500"/>
+        </div>
+        <div class="mx-4">
+          <img src="../../public/assets/images/phone5.png" height="500"/>
+        </div>
+      </div>
+    </section>
 </div>
 </template>
 
