@@ -344,6 +344,70 @@ defineProps({
 
       </div>
     </section>
+
+    <!-- features section -->
+    <section>
+      <div class="position-relative">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+              <h2 class="my-4 display-5 text-center">Previous Events</h2>
+            </div>
+          </div>
+        </div>
+
+        <div id="carouselEventIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="w-75 mx-auto rounded-4" style="min-height: 300px; background: linear-gradient(45deg, #2424FF, #1B0C75);">
+
+                <div class="container col-xxl-8 px-4 py-5">
+                  <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                      <div class="w-80 mx-auto rounded-4 bg-dark" style="height: 200px;"></div>
+                    </div>
+                    <div class="col-lg-6">
+                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white">SPL</h1>
+                      <p class="lead text-white">The stories about what they love about our services.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="w-75 mx-auto rounded-4" style="min-height: 300px; background: linear-gradient(45deg, #2424FF, #1B0C75);">
+
+
+                <div class="container col-xxl-8 px-4 py-5">
+                  <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                      <div class="w-80 mx-auto rounded-4 bg-dark" style="height: 200px;"></div>
+                    </div>
+                    <div class="col-lg-6">
+                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white">SPL</h1>
+                      <p class="lead text-white">The stories about what they love about our services.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselEventIndicators" data-bs-slide="prev">
+            <img src="../../public/assets/images/arrow_left.png"/>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselEventIndicators" data-bs-slide="next">
+            <img src="../../public/assets/images/arrow_right.png"/>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
 </div>
 </template>
 
