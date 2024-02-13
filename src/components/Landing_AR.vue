@@ -8,6 +8,20 @@ defineProps({
 </script>
 
 <template>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="d-flex justify-content-between align-items-center">
+            <h5 class="modal-title">Success submitted!</h5>
+            <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div>
     <!-- hero section -->
     <section>
@@ -15,16 +29,22 @@ defineProps({
         <div class="bg-image px-4 position-relative"
           style="background-image: url('assets/images/hero_ar.png'); background-size: cover; background-position: bottom; height: 100vh;">
           <div class="d-flex justify-content-between align-items-center mx-10">
-            <img src="../../public/assets/images/logo.png"/>
-            <div class="d-block">
-              <span class="mx-2 text-white">Arabic</span><img src="../../public/assets/images/flag_ar.png"/>
+            <a href="#"><img src="../../public/assets/images/logo.png"/></a>
+            <div class="dropdown">
+              <a class="text-decoration-none" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="mx-2 text-white">Arabic</span><img src="../../public/assets/images/flag_ar.png"/>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
             </div>
           </div>
           <div class="container my-100 mx-10">
             <div class="col-lg-6 px-4" style="z-index: 3">
               <h2 class="display-5 fw-bold lh-1 mb-3 text-white lh-sm">برنامج مكافآت <br /> الموظفين والعملاء</h2>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start my-4">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 rounded-pill bg-secondary-normal border-0">عرض تجريبي</button>
+                <a href="#partnershipform" class="btn btn-primary btn-lg px-4 me-md-2 rounded-pill bg-secondary-normal border-0">عرض تجريبي</a>
               </div>
             </div>
           </div>
@@ -461,7 +481,7 @@ defineProps({
     </section>
 
     <!-- form section -->
-    <section class="my-100">
+    <section id="partnershipform" class="my-100">
       <div class="container bg-image px-4 position-relative d-flex align-items-center rounded-4"
         style="background-image: url('assets/images/bg_form.png'); background-size: cover; background-position: bottom;">
         <div class="container col-xxl-8 px-4 py-3">
@@ -481,7 +501,7 @@ defineProps({
                   <input type="text" class="form-control rounded-pill" placeholder="اسم الشركة">
                 </div>
                 <div class="d-grid mx-2">
-                  <button class="btn btn-primary rounded-pill bg-secondary-normal border-0" type="button">ارسال</button>
+                  <button class="btn btn-primary rounded-pill bg-secondary-normal border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">ارسال</button>
                 </div>
               </div>
             </div>
@@ -494,30 +514,30 @@ defineProps({
     </section>
 
     <!-- footer section -->
-    <section>
+    <section class="py-4">
       <div class="container">
         <hr>
         <div class="row">
           <div class="col-3">
-            <img src="../../public/assets/images/logo_dark.png"/>
+            <a href="#"><img src="../../public/assets/images/logo_dark.png"/></a>
           </div>
           <div class="col-3">
             <p class="mx-1 fw-bold text-primary-thick">تابعنا</p>
             <div class="d-flex flex-wrap">
               <div class="border border-1 rounded-circle mx-1">
-                <img src="../../public/assets/images/contact_facebook.png" />
+                <a href="javascript:void(0);"><img src="../../public/assets/images/contact_facebook.png" /></a>
               </div>
               <div class="border border-1 rounded-circle mx-1">
-                <img src="../../public/assets/images/contact_instagram.png" />
+                <a href="javascript:void(0);"><img src="../../public/assets/images/contact_instagram.png" /></a>
               </div>
               <div class="border border-1 rounded-circle mx-1">
-                <img src="../../public/assets/images/contact_linkedin.png" />
+                <a href="javascript:void(0);"><img src="../../public/assets/images/contact_linkedin.png" /></a>
               </div>
               <div class="border border-1 rounded-circle mx-1">
-                <img src="../../public/assets/images/contact_twitter.png" />
+                <a href="javascript:void(0);"><img src="../../public/assets/images/contact_twitter.png" /></a>
               </div>
               <div class="border border-1 rounded-circle mx-1">
-                <img src="../../public/assets/images/contact_web.png" />
+                <a href="javascript:void(0);"><img src="../../public/assets/images/contact_web.png" /></a>
               </div>
             </div>
           </div>
@@ -528,9 +548,9 @@ defineProps({
           <div class="col-3">
             <p class="mx-1 fw-bold text-primary-thick">حمل التطبيق</p>
             <div class="d-flex flex-wrap">
-              <img src="../../public/assets/images/download_appgallery.png" class="mx-1"/>
-              <img src="../../public/assets/images/download_appstore.png" class="mx-1"/>
-              <img src="../../public/assets/images/download_googleplay.png" class="mx-1"/>
+              <a href="javascript:void(0);"><img src="../../public/assets/images/download_appgallery.png" class="mx-1"/></a>
+              <a href="javascript:void(0);"><img src="../../public/assets/images/download_appstore.png" class="mx-1"/></a>
+              <a href="javascript:void(0);"><img src="../../public/assets/images/download_googleplay.png" class="mx-1"/></a>
             </div>
           </div>
         </div>
