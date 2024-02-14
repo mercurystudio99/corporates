@@ -575,7 +575,7 @@ defineProps({
 .hero-image {
   position: relative;
   width: 50%;
-  right: 0;
+  left: 0;
   margin: 0 auto;
 }
 .feature-card {
@@ -603,7 +603,7 @@ defineProps({
   .hero-image {
     position: relative;
     width: 50%;
-    right: 0;
+    left: 0;
     margin: 0 auto;
   }
   .feature-card {
@@ -631,7 +631,7 @@ defineProps({
   .hero-image {
     position: absolute;
     width: 550px;
-    right: 0%;
+    left: 0%;
   }
   .feature-card {
     width: 75%;
@@ -658,7 +658,7 @@ defineProps({
   .hero-image {
     position: absolute;
     width: 65%;
-    right: 4%;
+    left: 4%;
   }
   .feature-card {
     width: 50%;
@@ -682,7 +682,7 @@ defineProps({
   .hero-image {
     position: absolute;
     width: 50%;
-    right: 8%;
+    left: 8%;
   }
 }
 .my-100 {
