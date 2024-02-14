@@ -39,8 +39,8 @@ $().ready(function(){
     <!-- hero section -->
     <section>
       <div class="position-relative">
-        <div class="bg-image px-4 position-relative"
-          style="background-image: url('assets/images/hero.png'); background-size: cover; background-position: bottom; height: 100vh;">
+        <div class="bg-image px-4 position-relative hero"
+          style="background-image: url('assets/images/hero.png'); background-size: cover; background-position: bottom;">
           <div class="d-flex justify-content-between align-items-center">
             <a href="#"><img src="../../public/assets/images/logo.png"/></a>
             <div class="dropdown">
@@ -53,16 +53,16 @@ $().ready(function(){
               </ul>
             </div>
           </div>
-          <div class="container my-100 mx-10">
-            <div class="col-lg-6 px-4" style="z-index: 3">
-              <h2 class="display-5 fw-bold lh-1 mb-3 text-white lh-sm">Rewards program<br /> for corporates'<br /> employees</h2>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-start my-4">
+          <div class="hero-title-margin">
+            <div class="col-12 col-md-7 col-lg-6 px-4" style="z-index: 3">
+              <h2 class="hero-title fw-bold lh-1 mb-3 text-white lh-sm">Rewards program for corporates' employees</h2>
+              <div class="d-grid gap-2 d-flex justify-content-center justify-content-md-start my-4">
                 <a href="#partnershipform" class="btn btn-primary btn-lg px-4 me-md-2 rounded-pill bg-secondary-normal border-0">Get a demo</a>
               </div>
             </div>
           </div>
-          <div class="position-absolute bottom-0" style="right:8%">
-            <img width="700" src="../../public/assets/images/service.png" class="d-block " loading="lazy">
+          <div class="bottom-0 hero-image">
+            <img width="100%" height="100%" src="../../public/assets/images/service.png" class="d-block " loading="lazy">
           </div>
         </div>
       </div>
@@ -143,8 +143,8 @@ $().ready(function(){
         </div>
 
         <div class="container overflow-hidden">
-          <div class="row gx-4 gy-2 my-4">
-            <div class="col-6">
+          <div class="row gx-4 gy-2 m-4">
+            <div class="col-12 col-md-6">
               <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_infinite.png" width="50" height="50" />
@@ -153,7 +153,7 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_gift.png" width="50" height="50" />
@@ -162,7 +162,7 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_wallet.png" width="50" height="50" />
@@ -171,7 +171,7 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_tool.png" width="50" height="50" />
@@ -180,7 +180,7 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_congrat.png" width="50" height="50" />
@@ -189,7 +189,7 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_upload.png" width="50" height="50" />
@@ -239,7 +239,7 @@ $().ready(function(){
         <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">Companies that trust us</h2>
         <!-- Carousel -->
         <div class="slider">
-          <div class="slide-track">
+          <div class="slide-track2">
             <div class="slide-item">
               <img src="../../public/assets/images/icon_company (1).png" />
             </div>
@@ -302,7 +302,7 @@ $().ready(function(){
 
     <!-- features section -->
     <section class="position-relative">
-      <img src="../../public/assets/images/bg_feature.png" class="position-absolute end-0"/>
+      <img src="../../public/assets/images/bg_feature.png" class="position-absolute end-0 feature-bg"/>
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
@@ -323,7 +323,7 @@ $().ready(function(){
                 <div class="container">
                   <div class="row">
                     <div class="col">
-                      <div class="mx-auto w-50">
+                      <div class="mx-auto feature-card">
                         <div class="bg-primary-thick rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_infinite_light.png" width="100%" height="100%" />
                         </div>
@@ -331,7 +331,7 @@ $().ready(function(){
                       </div>
                     </div>
                     <div class="col">
-                      <div class="mx-auto w-50">
+                      <div class="mx-auto feature-card">
                         <div class="bg-primary-normal rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_phone_light.png" width="100%" height="100%" />
                         </div>
@@ -339,7 +339,7 @@ $().ready(function(){
                       </div>
                     </div>
                     <div class="col">
-                      <div class="mx-auto w-50">
+                      <div class="mx-auto feature-card">
                         <div class="bg-primary-thin rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
                         </div>
@@ -356,7 +356,7 @@ $().ready(function(){
                 <div class="container">
                   <div class="row">
                     <div class="col">
-                      <div class="mx-auto w-50">
+                      <div class="mx-auto feature-card">
                         <div class="bg-primary-thin rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
                         </div>
@@ -364,7 +364,7 @@ $().ready(function(){
                       </div>
                     </div>
                     <div class="col">
-                      <div class="mx-auto w-50">
+                      <div class="mx-auto feature-card">
                         <div class="bg-primary-thick rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_wallet_light.png" width="100%" height="100%" />
                         </div>
@@ -372,7 +372,7 @@ $().ready(function(){
                       </div>
                     </div>
                     <div class="col">
-                      <div class="mx-auto w-50">
+                      <div class="mx-auto feature-card">
                         <div class="bg-primary-normal rounded-4 p-4 mx-4">
                             <img src="../../public/assets/images/icon_star_light.png" width="100%" height="100%" />
                         </div>
@@ -406,13 +406,13 @@ $().ready(function(){
               <div class="w-75 mx-auto rounded-4" style="min-height: 300px; background: linear-gradient(45deg, #2424FF, #1B0C75);">
 
                 <div class="container px-5 py-5">
-                  <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
-                    <div class="col-10 col-sm-8 col-lg-7">
-                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
+                  <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
+                    <div class="col-12 col-lg-5">
+                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-start">SPL</h1>
+                      <p class="lead text-white text-center text-lg-start">The stories about what they love about our services.</p>
                     </div>
-                    <div class="col-lg-5">
-                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white">SPL</h1>
-                      <p class="lead text-white">The stories about what they love about our services.</p>
+                    <div class="col-12 col-lg-7">
+                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
                     </div>
                   </div>
                 </div>
@@ -425,13 +425,13 @@ $().ready(function(){
 
 
                 <div class="container px-5 py-5">
-                  <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
-                    <div class="col-10 col-sm-8 col-lg-7">
-                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
+                  <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
+                    <div class="col-12 col-lg-5">
+                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-start">SPL</h1>
+                      <p class="lead text-white text-center text-lg-start">The stories about what they love about our services.</p>
                     </div>
-                    <div class="col-lg-5">
-                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white">SPL</h1>
-                      <p class="lead text-white">The stories about what they love about our services.</p>
+                    <div class="col-12 col-lg-7">
+                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
                     </div>
                   </div>
                 </div>
@@ -465,8 +465,8 @@ $().ready(function(){
         </div>
 
         <div class="container overflow-hidden pb-4">
-          <div class="row gx-4">
-            <div class="col-4 align-self-center">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4 align-self-center">
               <div class="bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
@@ -474,7 +474,7 @@ $().ready(function(){
                 <h6 class="text-primary-thin">Company name</h6>
               </div>
             </div>
-            <div class="col-4 align-self-center">
+            <div class="col-12 col-md-6 col-lg-4 align-self-center">
               <div class="bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
@@ -482,7 +482,7 @@ $().ready(function(){
                 <h6 class="text-primary-thin">Company name</h6>
               </div>
             </div>
-            <div class="col-4 align-self-center">
+            <div class="col-12 col-md-6 col-lg-4 align-self-center">
               <div class="bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
@@ -500,9 +500,12 @@ $().ready(function(){
     <section id="partnershipform" class="my-100">
       <div class="container bg-image px-4 position-relative d-flex align-items-center rounded-4"
         style="background-image: url('assets/images/bg_form.png'); background-size: cover; background-position: bottom;">
-        <div class="container px-5 py-3">
-          <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
-            <div class="col-10 col-sm-8 col-lg-6">
+        <div class="container px-0 px-lg-5 py-3">
+          <div class="row flex-lg-row align-items-center g-1 g-md-3 g-lg-5 py-1">
+            <div class="col-12 col-md-6">
+              <h1 class="display-5 fw-bold lh-2 text-white text-center text-md-start">We look forward to a beneficial and successful partnership!</h1>
+            </div>
+            <div class="col-12 col-md-6">
               <div class="w-80 mx-auto rounded-1 bg-white p-4">
                 <div class="mb-3 mx-2">
                   <input type="text" class="form-control rounded-pill" placeholder="Name">
@@ -524,9 +527,6 @@ $().ready(function(){
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <h1 class="display-5 fw-bold lh-2 mb-3 text-white">We look forward to a beneficial and successful partnership!</h1>
-            </div>
           </div>
         </div>
       </div>
@@ -536,11 +536,20 @@ $().ready(function(){
     <section class="py-4">
       <div class="container">
         <hr>
-        <div class="row">
-          <div class="col-3">
-            <a href="#"><img src="../../public/assets/images/logo_dark.png"/></a>
+        <div class="row flex-sm-row-reverse g-3">
+          <div class="col-12 col-sm-6 col-md-4">
+            <p class="mx-1 fw-bold text-primary-thick">Download the app</p>
+            <div class="d-flex flex-wrap">
+              <a href="javascript:void(0);"><img src="../../public/assets/images/download_appgallery.png" class="mx-1"/></a>
+              <a href="javascript:void(0);"><img src="../../public/assets/images/download_appstore.png" class="mx-1"/></a>
+              <a href="javascript:void(0);"><img src="../../public/assets/images/download_googleplay.png" class="mx-1"/></a>
+            </div>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-sm-6 col-md-2">
+            <span class="mx-1 fw-bold text-primary-thick">Call Us</span>
+            <p class="mx-1 my-2 text-primary-thick">920026612 / 0580033345</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
             <span class="mx-1 fw-bold text-primary-thick">Follow Us</span>
             <div class="d-flex flex-wrap my-1">
               <div class="border border-1 rounded-circle mx-1">
@@ -560,17 +569,8 @@ $().ready(function(){
               </div>
             </div>
           </div>
-          <div class="col-2">
-            <span class="mx-1 fw-bold text-primary-thick">Call Us</span>
-            <p class="mx-1 my-2 text-primary-thick">920026612 / 0580033345</p>
-          </div>
-          <div class="col-4">
-            <p class="mx-1 fw-bold text-primary-thick">Download the app</p>
-            <div class="d-flex flex-wrap">
-              <a href="javascript:void(0);"><img src="../../public/assets/images/download_appgallery.png" class="mx-1"/></a>
-              <a href="javascript:void(0);"><img src="../../public/assets/images/download_appstore.png" class="mx-1"/></a>
-              <a href="javascript:void(0);"><img src="../../public/assets/images/download_googleplay.png" class="mx-1"/></a>
-            </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a href="#"><img src="../../public/assets/images/logo_dark.png"/></a>
           </div>
         </div>
       </div>
@@ -579,13 +579,135 @@ $().ready(function(){
 </template>
 
 <style scoped>
+.hero {
+  height: auto;
+}
+.hero-title {
+  text-align: center;
+  font-size: 25px;
+}
+.hero-title-margin {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hero-image {
+  position: relative;
+  width: 50%;
+  right: 0;
+  margin: 0 auto;
+}
+.feature-card {
+  width: 100%;
+}
+.feature-bg {
+  height: 100% !important;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .hero {
+    height: auto;
+  }
+  .hero-title {
+    text-align: center;
+    font-size: 40px;
+  }
+  .hero-title-margin {
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hero-image {
+    position: relative;
+    width: 50%;
+    right: 0;
+    margin: 0 auto;
+  }
+  .feature-card {
+    width: 100%;
+  }
+  .feature-bg {
+    height: 100% !important;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero {
+    height: 600px;
+  }
+  .hero-title {
+    text-align: start;
+    font-size: 45px;
+  }
+  .hero-title-margin {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 140px;
+    margin-bottom: 140px;
+  }
+  .hero-image {
+    position: absolute;
+    width: 550px;
+    right: 0%;
+  }
+  .feature-card {
+    width: 75%;
+  }
+  .feature-bg {
+    height: auto !important;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hero {
+    height: 100vh;
+  }
+  .hero-title {
+    text-align: start;
+    font-size: 45px;
+  }
+  .hero-title-margin {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 140px;
+    margin-bottom: 140px;
+  }
+  .hero-image {
+    position: absolute;
+    width: 65%;
+    right: 4%;
+  }
+  .feature-card {
+    width: 50%;
+  }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hero {
+    height: 100vh;
+  }
+  .hero-title {
+    text-align: start;
+    font-size: 60px;
+  }
+  .hero-title-margin {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .hero-image {
+    position: absolute;
+    width: 50%;
+    right: 8%;
+  }
+}
 .my-100 {
   margin-top: 100px;
   margin-bottom: 100px;
-}
-.mx-10 {
-  margin-left: 10%;
-  margin-right: 10%;
 }
 .border-primary-thick {
   border-color: #1B0C75 !important;
@@ -638,15 +760,22 @@ $().ready(function(){
 }
 
 .slide-track {
-  width: calc(150px * 20);
+  width: calc(180px * 16);
   height: 200px;
   display: flex;
   animation: scroll 20s linear infinite;
   justify-content: space-between;
 }
+.slide-track2 {
+  width: calc(180px * 18);
+  height: 200px;
+  display: flex;
+  animation: scroll2 20s linear infinite;
+  justify-content: space-between;
+}
 
 .slide-item {
-  width: 150px;
+  width: 180px;
   display: grid;
   place-items: center;
   transition:0.5s;
@@ -661,23 +790,42 @@ $().ready(function(){
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(calc(-150px * 10));
+    transform: translateX(calc(-180px * 8));
+  }
+}
+@keyframes scroll2 {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(calc(-180px * 9));
   }
 }
 
 @media screen and (max-width: 768px) {
   .slide-track {
-    width: calc(80px * 20);
+    width: calc(150px * 16);
+  }
+  .slide-track2 {
+    width: calc(150px * 18);
   }
   .slide-item {
-    width: 80px;
+    width: 150px;
   }
   @keyframes scroll {
     0% {
       transform: translateX(0px);
     }
     100% {
-      transform: translateX(calc(-80px * 10));
+      transform: translateX(calc(-150px * 8));
+    }
+  }
+  @keyframes scroll2 {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(calc(-150px * 9));
     }
   }
 }
