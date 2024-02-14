@@ -145,55 +145,55 @@ $().ready(function(){
         <div class="container overflow-hidden">
           <div class="row gx-4 gy-2 my-4">
             <div class="col-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
+              <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_infinite_dark.png" width="50" height="50" />
-                  <span class="mx-2">Unlimited access to offers for all employees and their families</span>
+                  <img src="../../public/assets/images/icon_infinite.png" width="50" height="50" />
+                  <span class="mx-2 text-primary-thick fw-normal">Unlimited access to offers for all employees and their families</span>
                 </div>
               </div>
             </div>
 
             <div class="col-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
+              <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_gift_dark.png" width="50" height="50" />
-                  <span class="mx-2">Purchasing and delivering gifts to the employees</span>
+                  <img src="../../public/assets/images/icon_gift.png" width="50" height="50" />
+                  <span class="mx-2 text-primary-thick fw-normal">Purchasing and delivering gifts to the employees</span>
                 </div>
               </div>
             </div>
 
             <div class="col-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
+              <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_wallet_dark.png" width="50" height="50" />
-                  <span class="mx-2">Top up wallet for employees to buy gifts</span>
+                  <img src="../../public/assets/images/icon_wallet.png" width="50" height="50" />
+                  <span class="mx-2 text-primary-thick fw-normal">Top up wallet for employees to buy gifts</span>
                 </div>
               </div>
             </div>
 
             <div class="col-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
+              <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_tool_dark.png" width="50" height="50" />
-                  <span class="mx-2">Customer service to ensure your employees' satisfaction</span>
+                  <img src="../../public/assets/images/icon_tool.png" width="50" height="50" />
+                  <span class="mx-2 text-primary-thick fw-normal">Customer service to ensure your employees' satisfaction</span>
                 </div>
               </div>
             </div>
 
             <div class="col-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
+              <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_congrat_dark.png" width="50" height="50" />
-                  <span class="mx-2">Manage internal events</span>
+                  <img src="../../public/assets/images/icon_congrat.png" width="50" height="50" />
+                  <span class="mx-2 text-primary-thick fw-normal">Manage internal events</span>
                 </div>
               </div>
             </div>
 
             <div class="col-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
+              <div class="rounded-5 p-2 bg-white">
                 <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_upload_dark.png" width="50" height="50" />
-                  <span class="mx-2">Onboarding brands by the company’s request</span>
+                  <img src="../../public/assets/images/icon_upload.png" width="50" height="50" />
+                  <span class="mx-2 text-primary-thick fw-normal">Onboarding brands by the company’s request</span>
                 </div>
               </div>
             </div>
@@ -405,12 +405,12 @@ $().ready(function(){
             <div class="carousel-item active">
               <div class="w-75 mx-auto rounded-4" style="min-height: 300px; background: linear-gradient(45deg, #2424FF, #1B0C75);">
 
-                <div class="container col-xxl-8 px-4 py-5">
+                <div class="container px-5 py-5">
                   <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
-                    <div class="col-10 col-sm-8 col-lg-6">
-                      <div class="w-80 mx-auto rounded-4 bg-dark" style="height: 200px;"></div>
+                    <div class="col-10 col-sm-8 col-lg-7">
+                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                       <h1 class="display-5 fw-bold lh-1 mb-3 text-white">SPL</h1>
                       <p class="lead text-white">The stories about what they love about our services.</p>
                     </div>
@@ -424,12 +424,12 @@ $().ready(function(){
               <div class="w-75 mx-auto rounded-4" style="min-height: 300px; background: linear-gradient(45deg, #2424FF, #1B0C75);">
 
 
-                <div class="container col-xxl-8 px-4 py-5">
+                <div class="container px-5 py-5">
                   <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
-                    <div class="col-10 col-sm-8 col-lg-6">
-                      <div class="w-80 mx-auto rounded-4 bg-dark" style="height: 200px;"></div>
+                    <div class="col-10 col-sm-8 col-lg-7">
+                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                       <h1 class="display-5 fw-bold lh-1 mb-3 text-white">SPL</h1>
                       <p class="lead text-white">The stories about what they love about our services.</p>
                     </div>
@@ -470,21 +470,24 @@ $().ready(function(){
               <div class="bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
-                <h5 class="fw-bold text-primary-thin lh-1 mb-3">Katie Simpson</h5>
+                <span class="fs-5 fw-bold text-primary-thin lh-1 mb-3">Katie Simpson</span>
+                <h6 class="text-primary-thin">Company name</h6>
               </div>
             </div>
             <div class="col-4 align-self-center">
               <div class="bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
-                <h5 class="fw-bold text-primary-thin lh-1 mb-3">Marie Ulfa</h5>
+                <span class="fs-5 fw-bold text-primary-thin lh-1 mb-3">Marie Ulfa</span>
+                <h6 class="text-primary-thin">Company name</h6>
               </div>
             </div>
             <div class="col-4 align-self-center">
               <div class="bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
-                <h5 class="fw-bold text-primary-thin lh-1 mb-3">Richard Blok</h5>
+                <span class="fs-5 fw-bold text-primary-thin lh-1 mb-3">Richard Blok</span>
+                <h6 class="text-primary-thin">Company name</h6>
               </div>
             </div>
 
@@ -497,7 +500,7 @@ $().ready(function(){
     <section id="partnershipform" class="my-100">
       <div class="container bg-image px-4 position-relative d-flex align-items-center rounded-4"
         style="background-image: url('assets/images/bg_form.png'); background-size: cover; background-position: bottom;">
-        <div class="container col-xxl-8 px-4 py-3">
+        <div class="container px-5 py-3">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
             <div class="col-10 col-sm-8 col-lg-6">
               <div class="w-80 mx-auto rounded-1 bg-white p-4">
@@ -513,13 +516,16 @@ $().ready(function(){
                 <div class="mb-3 mx-2">
                   <input type="text" class="form-control rounded-pill" placeholder="Company name">
                 </div>
+                <div class="mb-3 mx-2">
+                  <input type="text" class="form-control rounded-pill" placeholder="City">
+                </div>
                 <div class="d-grid mx-2">
                   <button class="btn btn-primary rounded-pill bg-secondary-normal border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
-              <h1 class="display-5 fw-bold lh-1 mb-3 text-white">We look forward to a beneficial and successful partnership!</h1>
+              <h1 class="display-5 fw-bold lh-2 mb-3 text-white">We look forward to a beneficial and successful partnership!</h1>
             </div>
           </div>
         </div>
@@ -535,8 +541,8 @@ $().ready(function(){
             <a href="#"><img src="../../public/assets/images/logo_dark.png"/></a>
           </div>
           <div class="col-3">
-            <p class="mx-1 fw-bold text-primary-thick">Follow Us</p>
-            <div class="d-flex flex-wrap">
+            <span class="mx-1 fw-bold text-primary-thick">Follow Us</span>
+            <div class="d-flex flex-wrap my-1">
               <div class="border border-1 rounded-circle mx-1">
                 <a href="javascript:void(0);"><img src="../../public/assets/images/contact_facebook.png" /></a>
               </div>
@@ -554,11 +560,11 @@ $().ready(function(){
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <p class="mx-1 fw-bold text-primary-thick">Call Us</p>
-            <p class="mx-1 text-primary-thick">920026612 / 0580033345</p>
+          <div class="col-2">
+            <span class="mx-1 fw-bold text-primary-thick">Call Us</span>
+            <p class="mx-1 my-2 text-primary-thick">920026612 / 0580033345</p>
           </div>
-          <div class="col-3">
+          <div class="col-4">
             <p class="mx-1 fw-bold text-primary-thick">Download the app</p>
             <div class="d-flex flex-wrap">
               <a href="javascript:void(0);"><img src="../../public/assets/images/download_appgallery.png" class="mx-1"/></a>
