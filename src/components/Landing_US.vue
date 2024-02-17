@@ -41,8 +41,8 @@ $().ready(function(){
       <div class="position-relative">
         <div class="bg-image px-4 position-relative hero"
           style="background-image: url('assets/images/hero.png'); background-size: cover; background-position: bottom;">
-          <div class="d-flex justify-content-between align-items-center">
-            <a href="#"><img src="../../public/assets/images/logo.png"/></a>
+          <div class="d-flex justify-content-between align-items-center py-4">
+            <a href="#"><img src="../../public/assets/images/logo.png" width="100"/></a>
             <div class="dropdown">
               <a class="text-decoration-none" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="../../public/assets/images/flag_us.png"/><span class="mx-2 text-white">English</span>
@@ -57,7 +57,7 @@ $().ready(function(){
             <div class="col-12 col-md-7 col-lg-6 px-4" style="z-index: 3">
               <h2 class="hero-title fw-bold lh-1 mb-3 text-white lh-sm">Rewards program for corporates' employees</h2>
               <div class="d-grid gap-2 d-flex justify-content-center justify-content-md-start my-4">
-                <a href="#partnershipform" class="btn btn-primary btn-lg px-4 me-md-2 rounded-pill bg-secondary-normal border-0">Get a demo</a>
+                <a href="#partnershipform" class="btn btn-primary btn-hero px-4 me-md-2 rounded-pill bg-secondary-normal border-0">Get a demo</a>
               </div>
             </div>
           </div>
@@ -69,8 +69,8 @@ $().ready(function(){
     </section>
 
     <!-- offers section -->
-    <section>
-      <div class="position-relative my-100">
+    <section class="mt-50">
+      <div class="position-relative">
         <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">Exclusive offers for your employees</h2>
         <!-- Carousel -->
         <div class="slider">
@@ -130,8 +130,8 @@ $().ready(function(){
     </section>
 
     <!-- program service section -->
-    <section class="py-3 py-md-5 position-relative">
-      <div class="position-absolute bg-image w-75 h-75 bottom-0" style="background-image: url('assets/images/bg_program.png'); background-size: contain; background-repeat: no-repeat;"></div>
+    <section class="mt-50 position-relative">
+      <div class="position-absolute bg-image w-50 feature-bg bottom-0" style="background-image: url('assets/images/bg_program.png'); background-size: contain; background-repeat: no-repeat;"></div>
       <div class="position-relative">
 
         <div class="container">
@@ -205,7 +205,7 @@ $().ready(function(){
     </section>
 
     <!-- mobile app section -->
-    <section>
+    <section class="mt-50">
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-12">
@@ -234,7 +234,7 @@ $().ready(function(){
     </section>
 
     <!-- companies section -->
-    <section class="my-100">
+    <section class="mt-50">
       <div class="position-relative">
         <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">Companies that trust us</h2>
         <!-- Carousel -->
@@ -301,7 +301,7 @@ $().ready(function(){
     </section>
 
     <!-- features section -->
-    <section class="position-relative">
+    <section class="mt-50 position-relative">
       <img src="../../public/assets/images/bg_feature.png" class="position-absolute end-0 feature-bg"/>
       <div class="position-relative">
         <div class="container">
@@ -324,7 +324,7 @@ $().ready(function(){
                   <div class="row">
                     <div class="col">
                       <div class="mx-auto feature-card">
-                        <div class="bg-primary-thick rounded-4 p-4 mx-4">
+                        <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                             <img src="../../public/assets/images/icon_infinite_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Unlimited Discounts and offers</h5>
@@ -332,7 +332,7 @@ $().ready(function(){
                     </div>
                     <div class="col">
                       <div class="mx-auto feature-card">
-                        <div class="bg-primary-normal rounded-4 p-4 mx-4">
+                        <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                             <img src="../../public/assets/images/icon_phone_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Brands information</h5>
@@ -340,7 +340,7 @@ $().ready(function(){
                     </div>
                     <div class="col">
                       <div class="mx-auto feature-card">
-                        <div class="bg-primary-thin rounded-4 p-4 mx-4">
+                        <div class="bg-primary-thin rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                             <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Track your savings</h5>
@@ -357,7 +357,7 @@ $().ready(function(){
                   <div class="row">
                     <div class="col">
                       <div class="mx-auto feature-card">
-                        <div class="bg-primary-thin rounded-4 p-4 mx-4">
+                        <div class="bg-primary-thin rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                             <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Track your savings</h5>
@@ -365,7 +365,7 @@ $().ready(function(){
                     </div>
                     <div class="col">
                       <div class="mx-auto feature-card">
-                        <div class="bg-primary-thick rounded-4 p-4 mx-4">
+                        <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                             <img src="../../public/assets/images/icon_wallet_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Discounts, Guaranteed</h5>
@@ -373,7 +373,7 @@ $().ready(function(){
                     </div>
                     <div class="col">
                       <div class="mx-auto feature-card">
-                        <div class="bg-primary-normal rounded-4 p-4 mx-4">
+                        <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                             <img src="../../public/assets/images/icon_star_light.png" width="100%" height="100%" />
                         </div>
                         <h5 class="text-center my-4">Points on every transaction</h5>
@@ -390,7 +390,7 @@ $().ready(function(){
     </section>
 
     <!-- event section -->
-    <section class="my-100">
+    <section class="mt-50">
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
@@ -403,16 +403,16 @@ $().ready(function(){
         <div id="carouselEventIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="w-75 mx-auto rounded-4" style="min-height: 300px; background: linear-gradient(45deg, #2424FF, #1B0C75);">
+              <div class="w-75 mx-auto rounded-4" style="background: linear-gradient(45deg, #2424FF, #1B0C75);">
 
-                <div class="container px-5 py-5">
+                <div class="container p-3 p-lg-5">
                   <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
                     <div class="col-12 col-lg-5">
                       <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-start">SPL</h1>
                       <p class="lead text-white text-center text-lg-start">The stories about what they love about our services.</p>
                     </div>
                     <div class="col-12 col-lg-7">
-                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
+                      <div class="w-80 mx-auto rounded-4 bg-light event-card"></div>
                     </div>
                   </div>
                 </div>
@@ -421,17 +421,17 @@ $().ready(function(){
             </div>
 
             <div class="carousel-item">
-              <div class="w-75 mx-auto rounded-4" style="min-height: 300px; background: linear-gradient(45deg, #2424FF, #1B0C75);">
+              <div class="w-75 mx-auto rounded-4" style="background: linear-gradient(45deg, #2424FF, #1B0C75);">
 
 
-                <div class="container px-5 py-5">
+                <div class="container p-3 p-lg-5">
                   <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
                     <div class="col-12 col-lg-5">
                       <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-start">SPL</h1>
                       <p class="lead text-white text-center text-lg-start">The stories about what they love about our services.</p>
                     </div>
                     <div class="col-12 col-lg-7">
-                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
+                      <div class="w-80 mx-auto rounded-4 bg-light event-card"></div>
                     </div>
                   </div>
                 </div>
@@ -453,7 +453,7 @@ $().ready(function(){
     </section>
 
     <!-- testimonial section -->
-    <section class="position-relative">
+    <section class="mt-50 position-relative">
       <div class="position-absolute bg-image w-50 h-75 bottom-0" style="background-image: url('assets/images/bg_testimonial.png'); background-size: contain; background-repeat: no-repeat;"></div>
       <div class="position-relative">
         <div class="container">
@@ -497,7 +497,7 @@ $().ready(function(){
     </section>
 
     <!-- form section -->
-    <section id="partnershipform" class="my-100">
+    <section id="partnershipform" class="mt-100">
       <div class="container bg-image px-4 position-relative d-flex align-items-center rounded-4"
         style="background-image: url('assets/images/bg_form.png'); background-size: cover; background-position: bottom;">
         <div class="container px-0 px-lg-5 py-3">
@@ -533,7 +533,7 @@ $().ready(function(){
     </section>
 
     <!-- footer section -->
-    <section class="py-4">
+    <section class="mt-100 mb-4">
       <div class="container">
         <hr>
         <div class="row flex-sm-row-reverse g-3">
@@ -579,6 +579,10 @@ $().ready(function(){
 </template>
 
 <style scoped>
+.btn-hero {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+}
 .hero {
   height: auto;
 }
@@ -602,10 +606,21 @@ $().ready(function(){
   width: 100%;
 }
 .feature-bg {
-  height: 100% !important;
+  height: 60% !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+.event-card {
+  height: 100px;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .btn-hero {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+  }
   .hero {
     height: auto;
   }
@@ -623,6 +638,7 @@ $().ready(function(){
   .hero-image {
     position: relative;
     width: 50%;
+    max-width: 600px;
     right: 0;
     margin: 0 auto;
   }
@@ -630,11 +646,22 @@ $().ready(function(){
     width: 100%;
   }
   .feature-bg {
-    height: 100% !important;
+    height: 60% !important;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  .event-card {
+    height: 100px;
   }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .btn-hero {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+  }
   .hero {
     height: 600px;
   }
@@ -645,8 +672,8 @@ $().ready(function(){
   .hero-title-margin {
     margin-left: 2%;
     margin-right: 2%;
-    margin-top: 140px;
-    margin-bottom: 140px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
   .hero-image {
     position: absolute;
@@ -657,13 +684,24 @@ $().ready(function(){
     width: 75%;
   }
   .feature-bg {
-    height: auto !important;
+    height: 100% !important;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  .event-card {
+    height: 100px;
   }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .btn-hero {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+  }
   .hero {
-    height: 100vh;
+    height: 600px;
   }
   .hero-title {
     text-align: start;
@@ -677,11 +715,21 @@ $().ready(function(){
   }
   .hero-image {
     position: absolute;
-    width: 65%;
+    width: 550px;
     right: 4%;
   }
   .feature-card {
     width: 50%;
+  }
+  .feature-bg {
+    height: 100% !important;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: block;
+  }
+  .event-card {
+    height: 200px;
   }
 }
 /* X-Large devices (large desktops, 1200px and up) */
@@ -705,9 +753,11 @@ $().ready(function(){
     right: 8%;
   }
 }
-.my-100 {
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-100 {
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 .border-primary-thick {
   border-color: #1B0C75 !important;
