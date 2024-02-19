@@ -28,8 +28,8 @@ defineProps({
       <div class="position-relative">
         <div class="bg-image px-4 position-relative hero"
           style="background-image: url('assets/images/hero_ar.png'); background-size: cover; background-position: bottom;">
-          <div class="d-flex justify-content-between align-items-center mx-10">
-            <a href="#"><img src="../../public/assets/images/logo.png"/></a>
+          <div class="d-flex justify-content-between align-items-center py-4">
+            <a href="#"><img src="../../public/assets/images/logo.png" width="100"/></a>
             <div class="dropdown">
               <a class="text-decoration-none" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="mx-2 text-white">Arabic</span><img src="../../public/assets/images/flag_ar.png"/>
@@ -44,7 +44,7 @@ defineProps({
             <div class="col-12 col-md-7 col-lg-6 px-4" style="z-index: 3">
               <h2 class="hero-title fw-bold lh-1 mb-3 text-white lh-sm">برنامج مكافآت <br /> الموظفين والعملاء</h2>
               <div class="d-grid gap-2 d-flex justify-content-center justify-content-md-start my-4">
-                <a href="#partnershipform" class="btn btn-primary btn-lg px-4 me-md-2 rounded-pill bg-secondary-normal border-0">عرض تجريبي</a>
+                <a href="#partnershipform" class="btn btn-primary btn-hero px-4 me-md-2 rounded-pill bg-secondary-normal border-0">عرض تجريبي</a>
               </div>
             </div>
           </div>
@@ -56,8 +56,8 @@ defineProps({
     </section>
 
     <!-- offers section -->
-    <section>
-      <div class="position-relative my-100">
+    <section class="mt-50">
+      <div class="position-relative">
         <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">أبرز العلامات التجارية</h2>
         <!-- Carousel -->
         <div class="slider">
@@ -117,8 +117,8 @@ defineProps({
     </section>
 
     <!-- program service section -->
-    <section class="py-3 py-md-5 position-relative">
-      <div class="position-absolute bg-image w-75 h-75 bottom-0 start-0" style="background-image: url('assets/images/bg_program.png'); background-size: contain; background-repeat: no-repeat;"></div>
+    <section class="mt-50 position-relative" style="margin-top: 20px;">
+      <div class="position-absolute bg-image w-50 feature-bg bottom-0 start-0" style="background-image: url('assets/images/bg_program.png'); background-size: contain; background-repeat: no-repeat;"></div>
       <div class="position-relative">
 
         <div class="container">
@@ -131,56 +131,56 @@ defineProps({
 
         <div class="container overflow-hidden">
           <div class="row gx-4 gy-2 m-4">
-            <div class="col-12 col-md-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
-                <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_infinite_dark.png" width="50" height="50" />
-                  <span class="mx-2">عروض لجميع موظفي الشركة وأفراد أسرهم</span>
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="mx-2 text-primary-thick fw-normal">عروض لجميع موظفي الشركة وأفراد أسرهم</span>
+                  <img src="../../public/assets/images/icon_infinite.png" width="50" height="50" />
                 </div>
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
-                <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_gift_dark.png" width="50" height="50" />
-                  <span class="mx-2">شراء وتوصيل الهدايا للموظفين</span>
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="mx-2 text-primary-thick fw-normal">شراء وتوصيل الهدايا للموظفين</span>
+                  <img src="../../public/assets/images/icon_gift.png" width="50" height="50" />
                 </div>
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
-                <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_wallet_dark.png" width="50" height="50" />
-                  <span class="mx-2">شحن رصيد الموظف لشراء هدايا</span>
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="mx-2 text-primary-thick fw-normal">شحن رصيد الموظف لشراء هدايا</span>
+                  <img src="../../public/assets/images/icon_wallet.png" width="50" height="50" />
                 </div>
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
-                <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_tool_dark.png" width="50" height="50" />
-                  <span class="mx-2">خدمة عملاء لضمان رضا  الموظفين</span>
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="mx-2 text-primary-thick fw-normal">خدمة عملاء لضمان رضا  الموظفين</span>
+                  <img src="../../public/assets/images/icon_tool.png" width="50" height="50" />
                 </div>
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
-                <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_congrat_dark.png" width="50" height="50" />
-                  <span class="mx-2">تنظيم الفعاليات الداخلية الخاصة بالشركة</span>
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="mx-2 text-primary-thick fw-normal">تنظيم الفعاليات الداخلية الخاصة بالشركة</span>
+                  <img src="../../public/assets/images/icon_congrat.png" width="50" height="50" />
                 </div>
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="border border-1 border-primary-thick rounded-4 p-2 bg-white">
-                <div class="d-flex justify-content-start align-items-center">
-                  <img src="../../public/assets/images/icon_upload_dark.png" width="50" height="50" />
-                  <span class="mx-2">إضافة عروض  بناء على طلب الشركة</span>
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="mx-2 text-primary-thick fw-normal">إضافة عروض  بناء على طلب الشركة</span>
+                  <img src="../../public/assets/images/icon_upload.png" width="50" height="50" />
                 </div>
               </div>
             </div>
@@ -192,7 +192,7 @@ defineProps({
     </section>
 
     <!-- mobile app section -->
-    <section>
+    <section class="mt-50">
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-12">
@@ -201,27 +201,27 @@ defineProps({
         </div>
       </div>
 
-      <div class="d-flex overflow-auto px-4 my-4">
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone1.png" height="500"/>
+      <div class="d-flex overflow-hidden justify-content-center px-1 px-lg-4 my-4">
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone1.png" width="100%" style="min-width: 100px;"/>
         </div>
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone2.png" height="500"/>
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone2.png" width="100%" style="min-width: 100px;"/>
         </div>
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone3.png" height="500"/>
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone3.png" width="100%" style="min-width: 100px;"/>
         </div>
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone4.png" height="500"/>
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone4.png" width="100%" style="min-width: 100px;"/>
         </div>
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone5.png" height="500"/>
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone5.png" width="100%" style="min-width: 100px;"/>
         </div>
       </div>
     </section>
 
     <!-- companies section -->
-    <section class="my-100">
+    <section class="mt-50">
       <div class="position-relative">
         <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">شركاء يقدمون مزايا SDC App لموظفيهم</h2>
         <!-- Carousel -->
@@ -288,8 +288,7 @@ defineProps({
     </section>
 
     <!-- features section -->
-    <section class="position-relative">
-      <img src="../../public/assets/images/bg_feature.png" class="position-absolute end-0 feature-bg"/>
+    <section class="mt-50 position-relative">
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
@@ -299,75 +298,55 @@ defineProps({
           </div>
         </div>
 
-        <div id="carouselFeatureIndicators" class="carousel slide my-4" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <div data-bs-target="#carouselFeatureIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></div>
-            <div data-bs-target="#carouselFeatureIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></div>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div style="height: 300px;">
-                <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-thick rounded-4 p-4 mx-4">
-                            <img src="../../public/assets/images/icon_infinite_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Unlimited Discounts and offers</h5>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-normal rounded-4 p-4 mx-4">
-                            <img src="../../public/assets/images/icon_phone_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Brands information</h5>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-thin rounded-4 p-4 mx-4">
-                            <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Track your savings</h5>
-                      </div>
-                    </div>
+        <div class="feature-item" style="margin-top: 15px;">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_infinite_light.png" width="100%" height="100%" />
                   </div>
                 </div>
+                <p class="text-center my-4 feature-caption">Unlimited Discounts and offers</p>
+              </div>
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_wallet_light.png" width="100%" height="100%" />
+                  </div>
+                </div>
+                <p class="text-center my-4 feature-caption">Discounts, Guaranteed</p>
+              </div>
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_star_light.png" width="100%" height="100%" />
+                  </div>
+                </div>
+                <p class="text-center my-4 feature-caption">Points on every transaction</p>
               </div>
             </div>
+          </div>
+        </div>
 
-            <div class="carousel-item">
-              <div style="height: 300px;">
-                <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-thin rounded-4 p-4 mx-4">
-                            <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Track your savings</h5>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-thick rounded-4 p-4 mx-4">
-                            <img src="../../public/assets/images/icon_wallet_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Discounts, Guaranteed</h5>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-normal rounded-4 p-4 mx-4">
-                            <img src="../../public/assets/images/icon_star_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Points on every transaction</h5>
-                      </div>
-                    </div>
+        <div class="feature-item">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-thin rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
                   </div>
                 </div>
+                <p class="text-center my-4 feature-caption">Track your savings</p>
+              </div>
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_phone_light.png" width="100%" height="100%" />
+                  </div>
+                </div>
+                <p class="text-center my-4 feature-caption">Brands information</p>
               </div>
             </div>
           </div>
@@ -377,7 +356,7 @@ defineProps({
     </section>
 
     <!-- event section -->
-    <section class="my-100">
+    <section class="mt-50">
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
@@ -387,19 +366,23 @@ defineProps({
           </div>
         </div>
 
-        <div id="carouselEventIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselEventIndicators" style="padding-bottom: 0.75rem;" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+          <div class="carousel-indicators">
+            <div data-bs-target="#carouselEventIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></div>
+            <div data-bs-target="#carouselEventIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></div>
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="w-75 mx-auto rounded-4" style="min-height: 300px; background: linear-gradient(45deg, #2424FF, #1B0C75);">
+              <div class="w-75 mx-auto rounded-4" style="background: linear-gradient(45deg, #2424FF, #1B0C75);">
 
-                <div class="container p-5">
+                <div class="container px-5 pt-2 pb-5 p-lg-5">
                   <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
                     <div class="col-12 col-lg-5">
-                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-start">سبل البريد السعودي</h1>
-                      <p class="lead text-white text-center text-lg-start">فعالية عن اليوم العالمي للصحة النفسية</p>
+                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-end">سبل البريد السعودي</h1>
+                      <p class="lead text-white text-center text-lg-end">فعالية عن اليوم العالمي للصحة النفسية</p>
                     </div>
                     <div class="col-12 col-lg-7">
-                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
+                      <div class="w-80 mx-auto rounded-4 bg-light event-card"></div>
                     </div>
                   </div>
                 </div>
@@ -408,16 +391,16 @@ defineProps({
             </div>
 
             <div class="carousel-item">
-              <div class="w-75 mx-auto rounded-4" style="min-height: 300px; background: linear-gradient(45deg, #2424FF, #1B0C75);">
+              <div class="w-75 mx-auto rounded-4" style="background: linear-gradient(45deg, #2424FF, #1B0C75);">
 
-                <div class="container p-5">
+                <div class="container px-5 pt-2 pb-5 p-lg-5">
                   <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
                     <div class="col-12 col-lg-5">
-                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-start">سبل البريد السعودي</h1>
-                      <p class="lead text-white text-center text-lg-start">فعالية عن اليوم العالمي للصحة النفسية</p>
+                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-end">سبل البريد السعودي</h1>
+                      <p class="lead text-white text-center text-lg-end">فعالية عن اليوم العالمي للصحة النفسية</p>
                     </div>
                     <div class="col-12 col-lg-7">
-                      <div class="w-80 mx-auto rounded-4 bg-light" style="height: 200px;"></div>
+                      <div class="w-80 mx-auto rounded-4 bg-light event-card"></div>
                     </div>
                   </div>
                 </div>
@@ -426,21 +409,13 @@ defineProps({
             </div>
 
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselEventIndicators" data-bs-slide="prev">
-            <img src="../../public/assets/images/arrow_left.png"/>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselEventIndicators" data-bs-slide="next">
-            <img src="../../public/assets/images/arrow_right.png"/>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </section>
 
     <!-- testimonial section -->
-    <section class="position-relative">
-      <div class="position-absolute bg-image w-50 h-75 bottom-0 start-0" style="background-image: url('assets/images/bg_testimonial.png'); background-size: contain; background-repeat: no-repeat;"></div>
+    <section class="mt-50 position-relative">
+      <div class="position-absolute bg-image w-25 feature-bg bottom-0 start-0" style="background-image: url('assets/images/bg_testimonial.png'); background-size: contain; background-repeat: no-repeat;"></div>
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
@@ -453,21 +428,21 @@ defineProps({
         <div class="container overflow-hidden pb-4">
           <div class="row g-4">
             <div class="col-12 col-md-6 col-lg-4 align-self-center">
-              <div class="bg-white rounded-4 p-3">
+              <div class="shadow bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
                 <h5 class="fw-bold text-primary-thin lh-1 mb-3">Katie Simpson</h5>
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 align-self-center">
-              <div class="bg-white rounded-4 p-3">
+              <div class="shadow bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
                 <h5 class="fw-bold text-primary-thin lh-1 mb-3">Marie Ulfa</h5>
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 align-self-center">
-              <div class="bg-white rounded-4 p-3">
+              <div class="shadow bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
                 <h5 class="fw-bold text-primary-thin lh-1 mb-3">Richard Blok</h5>
@@ -480,7 +455,7 @@ defineProps({
     </section>
 
     <!-- form section -->
-    <section id="partnershipform" class="my-100">
+    <section id="partnershipform" class="mt-100">
       <div class="container bg-image px-4 position-relative d-flex align-items-center rounded-4"
         style="background-image: url('assets/images/bg_form.png'); background-size: cover; background-position: bottom;">
         <div class="container px-0 px-lg-5 py-3">
@@ -513,8 +488,8 @@ defineProps({
     </section>
 
     <!-- footer section -->
-    <section class="py-4">
-      <div class="container">
+    <section class="mt-100 mb-4">
+      <div class="mx-4">
         <hr>
         <div class="row flex-sm-row-reverse g-3">
           <div class="col-12 col-sm-6 col-md-4">
@@ -525,13 +500,13 @@ defineProps({
               <a href="javascript:void(0);"><img src="../../public/assets/images/download_googleplay.png" class="mx-1"/></a>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-2">
+          <div class="col-12 col-sm-6 col-md-3">
             <span class="mx-1 fw-bold text-primary-thick">تواصل معنا</span>
-            <p class="mx-1 my-2 text-primary-thick">920026612 / 0580033345</p>
+            <p class="mx-1 my-3 text-primary-thick">920026612 / 0580033345</p>
           </div>
           <div class="col-12 col-sm-6 col-md-3">
             <p class="mx-1 fw-bold text-primary-thick">تابعنا</p>
-            <div class="d-flex flex-wrap">
+            <div class="d-flex flex-wrap my-1">
               <div class="border border-1 rounded-circle mx-1">
                 <a href="javascript:void(0);"><img src="../../public/assets/images/contact_facebook.png" /></a>
               </div>
@@ -549,8 +524,8 @@ defineProps({
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-3">
-            <a href="#"><img src="../../public/assets/images/logo_dark.png"/></a>
+          <div class="col-12 col-sm-6 col-md-2">
+            <a href="#"><img src="../../public/assets/images/logo_dark.png" width="100"/></a>
           </div>
         </div>
       </div>
@@ -559,6 +534,10 @@ defineProps({
 </template>
 
 <style scoped>
+.btn-hero {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+}
 .hero {
   height: auto;
 }
@@ -579,13 +558,27 @@ defineProps({
   margin: 0 auto;
 }
 .feature-card {
-  width: 100%;
+  width: 75%;
+}
+.feature-item {
+  height: 200px;
+}
+.feature-caption {
+  font-size: 1rem;
+  font-weight: 500;
 }
 .feature-bg {
-  height: 100% !important;
+  height: 0 !important;
+}
+.event-card {
+  height: 200px;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .btn-hero {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+  }
   .hero {
     height: auto;
   }
@@ -609,12 +602,26 @@ defineProps({
   .feature-card {
     width: 100%;
   }
+  .feature-item {
+    height: 260px;
+  }
+  .feature-caption {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
   .feature-bg {
-    height: 100% !important;
+    height: 0 !important;
+  }
+  .event-card {
+    height: 200px;
   }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .btn-hero {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+  }
   .hero {
     height: 600px;
   }
@@ -636,12 +643,26 @@ defineProps({
   .feature-card {
     width: 75%;
   }
+  .feature-item {
+    height: 260px;
+  }
+  .feature-caption {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
   .feature-bg {
-    height: auto !important;
+    height: 100% !important;
+  }
+  .event-card {
+    height: 200px;
   }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .btn-hero {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+  }
   .hero {
     height: 100vh;
   }
@@ -663,9 +684,31 @@ defineProps({
   .feature-card {
     width: 50%;
   }
+  .feature-item {
+    height: 260px;
+  }
+  .feature-caption {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .feature-bg {
+    height: 100% !important;
+  }
+  .event-card {
+    height: 200px;
+  }
+  .carousel-indicators {
+    justify-content: start;
+  }
 }
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .btn-hero {
+    padding: 0.75rem 1.25rem;
+    font-size: 1.5rem;
+  }
   .hero {
     height: 100vh;
   }
@@ -684,10 +727,15 @@ defineProps({
     width: 50%;
     left: 8%;
   }
+  .pr-lg-15 {
+    padding-right: 15% !important;
+  }
 }
-.my-100 {
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-100 {
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 .border-primary-thick {
   border-color: #1B0C75 !important;
@@ -700,6 +748,9 @@ defineProps({
 }
 .text-primary-thick {
   color: #1B0C75;
+}
+.bg-gray {
+  background-color: #F5F8FB;
 }
 .bg-primary-thin {
   background-color: #2424FF;
@@ -811,10 +862,14 @@ defineProps({
 }
 
 .carousel-indicators [data-bs-target] {
-  width: 20px; height: 20px;
-  background-color: gray;
+  width: 15px; height: 15px;
+  background-color: rgba(255,255,255,0.4);
 }
 .carousel-indicators .active {
-  background-color: #EA6838;
+  background-color: white;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #D1D1D1;
+  opacity: 1; /* Firefox */
 }
 </style>
