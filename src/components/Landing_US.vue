@@ -302,7 +302,6 @@ $().ready(function(){
 
     <!-- features section -->
     <section class="mt-50 position-relative">
-      <img src="../../public/assets/images/bg_feature.png" class="position-absolute end-0 feature-bg"/>
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
@@ -312,74 +311,54 @@ $().ready(function(){
           </div>
         </div>
 
-        <div id="carouselFeatureIndicators" class="carousel slide my-4" data-bs-ride="carousel" data-bs-touch="true">
-          <div class="carousel-indicators">
-            <div data-bs-target="#carouselFeatureIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></div>
-            <div data-bs-target="#carouselFeatureIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></div>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div style="height: 300px;">
-                <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
-                            <img src="../../public/assets/images/icon_infinite_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Unlimited Discounts and offers</h5>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
-                            <img src="../../public/assets/images/icon_phone_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Brands information</h5>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-thin rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
-                            <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Track your savings</h5>
-                      </div>
-                    </div>
+        <div style="height: 260px; margin-top: 15px;">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_infinite_light.png" width="100%" height="100%" />
                   </div>
+                  <h5 class="text-center my-4">Unlimited Discounts and offers</h5>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_wallet_light.png" width="100%" height="100%" />
+                  </div>
+                  <h5 class="text-center my-4">Discounts, Guaranteed</h5>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_star_light.png" width="100%" height="100%" />
+                  </div>
+                  <h5 class="text-center my-4">Points on every transaction</h5>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
-            <div class="carousel-item">
-              <div style="height: 300px;">
-                <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-thin rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
-                            <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Track your savings</h5>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
-                            <img src="../../public/assets/images/icon_wallet_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Discounts, Guaranteed</h5>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="mx-auto feature-card">
-                        <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
-                            <img src="../../public/assets/images/icon_star_light.png" width="100%" height="100%" />
-                        </div>
-                        <h5 class="text-center my-4">Points on every transaction</h5>
-                      </div>
-                    </div>
+        <div style="height: 260px;">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-thin rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
                   </div>
+                  <h5 class="text-center my-4">Track your savings</h5>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="mx-auto feature-card">
+                  <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
+                      <img src="../../public/assets/images/icon_phone_light.png" width="100%" height="100%" />
+                  </div>
+                  <h5 class="text-center my-4">Brands information</h5>
                 </div>
               </div>
             </div>
@@ -400,7 +379,11 @@ $().ready(function(){
           </div>
         </div>
 
-        <div id="carouselEventIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselEventIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+          <div class="carousel-indicators">
+            <div data-bs-target="#carouselEventIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></div>
+            <div data-bs-target="#carouselEventIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></div>
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="w-75 mx-auto rounded-4" style="background: linear-gradient(45deg, #2424FF, #1B0C75);">
