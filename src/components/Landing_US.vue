@@ -130,7 +130,7 @@ $().ready(function(){
     </section>
 
     <!-- program service section -->
-    <section class="mt-50 position-relative">
+    <section class="mt-50 position-relative" style="margin-top: 20px;">
       <div class="position-absolute bg-image w-50 feature-bg bottom-0" style="background-image: url('assets/images/bg_program.png'); background-size: contain; background-repeat: no-repeat;"></div>
       <div class="position-relative">
 
@@ -144,8 +144,8 @@ $().ready(function(){
 
         <div class="container overflow-hidden">
           <div class="row gx-4 gy-2 m-4">
-            <div class="col-12 col-md-6">
-              <div class="rounded-5 p-2 bg-white">
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_infinite.png" width="50" height="50" />
                   <span class="mx-2 text-primary-thick fw-normal">Unlimited access to offers for all employees and their families</span>
@@ -153,8 +153,8 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="rounded-5 p-2 bg-white">
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_gift.png" width="50" height="50" />
                   <span class="mx-2 text-primary-thick fw-normal">Purchasing and delivering gifts to the employees</span>
@@ -162,8 +162,8 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="rounded-5 p-2 bg-white">
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_wallet.png" width="50" height="50" />
                   <span class="mx-2 text-primary-thick fw-normal">Top up wallet for employees to buy gifts</span>
@@ -171,8 +171,8 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="rounded-5 p-2 bg-white">
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_tool.png" width="50" height="50" />
                   <span class="mx-2 text-primary-thick fw-normal">Customer service to ensure your employees' satisfaction</span>
@@ -180,8 +180,8 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="rounded-5 p-2 bg-white">
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_congrat.png" width="50" height="50" />
                   <span class="mx-2 text-primary-thick fw-normal">Manage internal events</span>
@@ -189,8 +189,8 @@ $().ready(function(){
               </div>
             </div>
 
-            <div class="col-12 col-md-6">
-              <div class="rounded-5 p-2 bg-white">
+            <div class="col-12 col-md-6 pr-lg-15">
+              <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-start align-items-center">
                   <img src="../../public/assets/images/icon_upload.png" width="50" height="50" />
                   <span class="mx-2 text-primary-thick fw-normal">Onboarding brands by the company’s request</span>
@@ -214,21 +214,21 @@ $().ready(function(){
         </div>
       </div>
 
-      <div class="d-flex overflow-auto px-4 my-4">
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone1.png" height="500"/>
+      <div class="d-flex overflow-auto justify-content-center px-1 px-lg-4 my-4">
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone1.png" width="100%"/>
         </div>
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone2.png" height="500"/>
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone2.png" width="100%"/>
         </div>
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone3.png" height="500"/>
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone3.png" width="100%"/>
         </div>
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone4.png" height="500"/>
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone4.png" width="100%"/>
         </div>
-        <div class="mx-4">
-          <img src="../../public/assets/images/phone5.png" height="500"/>
+        <div class="mx-1 mx-lg-4">
+          <img src="../../public/assets/images/phone5.png" width="100%"/>
         </div>
       </div>
     </section>
@@ -598,7 +598,7 @@ $().ready(function(){
 }
 .hero-image {
   position: relative;
-  width: 50%;
+  width: 70%;
   right: 0;
   margin: 0 auto;
 }
@@ -606,7 +606,7 @@ $().ready(function(){
   width: 100%;
 }
 .feature-bg {
-  height: 60% !important;
+  height: 0 !important;
 }
 .carousel-control-prev,
 .carousel-control-next {
@@ -637,7 +637,7 @@ $().ready(function(){
   }
   .hero-image {
     position: relative;
-    width: 50%;
+    width: 70%;
     max-width: 600px;
     right: 0;
     margin: 0 auto;
@@ -646,7 +646,7 @@ $().ready(function(){
     width: 100%;
   }
   .feature-bg {
-    height: 60% !important;
+    height: 0 !important;
   }
   .carousel-control-prev,
   .carousel-control-next {
@@ -734,6 +734,10 @@ $().ready(function(){
 }
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .btn-hero {
+    padding: 0.75rem 1.25rem;
+    font-size: 1.5rem;
+  }
   .hero {
     height: 100vh;
   }
@@ -751,6 +755,9 @@ $().ready(function(){
     position: absolute;
     width: 50%;
     right: 8%;
+  }
+  .pr-lg-15 {
+    padding-right: 15% !important;
   }
 }
 .mt-50 {
@@ -770,6 +777,9 @@ $().ready(function(){
 }
 .text-primary-thick {
   color: #1B0C75;
+}
+.bg-gray {
+  background-color: #F5F8FB;
 }
 .bg-primary-thin {
   background-color: #2424FF;
