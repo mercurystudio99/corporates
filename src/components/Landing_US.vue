@@ -379,7 +379,7 @@ $().ready(function(){
           </div>
         </div>
 
-        <div id="carouselEventIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+        <div id="carouselEventIndicators" style="padding-bottom: 4rem;" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
           <div class="carousel-indicators">
             <div data-bs-target="#carouselEventIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></div>
             <div data-bs-target="#carouselEventIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></div>
@@ -423,21 +423,13 @@ $().ready(function(){
             </div>
 
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselEventIndicators" data-bs-slide="prev">
-            <img src="../../public/assets/images/arrow_left.png"/>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselEventIndicators" data-bs-slide="next">
-            <img src="../../public/assets/images/arrow_right.png"/>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </section>
 
     <!-- testimonial section -->
     <section class="mt-50 position-relative">
-      <div class="position-absolute bg-image w-50 h-75 bottom-0" style="background-image: url('assets/images/bg_testimonial.png'); background-size: contain; background-repeat: no-repeat;"></div>
+      <div class="position-absolute bg-image w-25 feature-bg bottom-0" style="background-image: url('assets/images/bg_testimonial.png'); background-size: contain; background-repeat: no-repeat;"></div>
       <div class="position-relative">
         <div class="container">
           <div class="row justify-content-md-center">
@@ -517,7 +509,7 @@ $().ready(function(){
 
     <!-- footer section -->
     <section class="mt-100 mb-4">
-      <div class="container">
+      <div class="mx-4">
         <hr>
         <div class="row flex-sm-row-reverse g-3">
           <div class="col-12 col-sm-6 col-md-4">
@@ -528,9 +520,9 @@ $().ready(function(){
               <a href="javascript:void(0);"><img src="../../public/assets/images/download_googleplay.png" class="mx-1"/></a>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-2">
+          <div class="col-12 col-sm-6 col-md-3">
             <span class="mx-1 fw-bold text-primary-thick">Call Us</span>
-            <p class="mx-1 my-2 text-primary-thick">920026612 / 0580033345</p>
+            <p class="mx-1 my-3 text-primary-thick">920026612 / 0580033345</p>
           </div>
           <div class="col-12 col-sm-6 col-md-3">
             <span class="mx-1 fw-bold text-primary-thick">Follow Us</span>
@@ -552,8 +544,8 @@ $().ready(function(){
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-3">
-            <a href="#"><img src="../../public/assets/images/logo_dark.png"/></a>
+          <div class="col-12 col-sm-6 col-md-2">
+            <a href="#"><img src="../../public/assets/images/logo_dark.png" width="100"/></a>
           </div>
         </div>
       </div>
@@ -879,5 +871,9 @@ $().ready(function(){
 }
 .carousel-indicators .active {
   background-color: #EA6838;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #D1D1D1;
+  opacity: 1; /* Firefox */
 }
 </style>
