@@ -767,7 +767,7 @@ defineProps({
 .slider {
   position: relative;
   width: 100%;
-
+  direction: ltr;
   display: grid;
   place-items: center;
   overflow: hidden;
