@@ -214,21 +214,21 @@ $().ready(function(){
         </div>
       </div>
 
-      <div class="d-flex overflow-auto justify-content-center px-1 px-lg-4 my-4">
+      <div class="d-flex overflow-hidden justify-content-center px-1 px-lg-4 my-4">
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone1.png" width="100%"/>
+          <img src="../../public/assets/images/phone1.png" />
         </div>
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone2.png" width="100%"/>
+          <img src="../../public/assets/images/phone2.png" />
         </div>
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone3.png" width="100%"/>
+          <img src="../../public/assets/images/phone3.png" />
         </div>
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone4.png" width="100%"/>
+          <img src="../../public/assets/images/phone4.png" />
         </div>
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone5.png" width="100%"/>
+          <img src="../../public/assets/images/phone5.png" />
         </div>
       </div>
     </section>
@@ -311,7 +311,7 @@ $().ready(function(){
           </div>
         </div>
 
-        <div style="height: 260px; margin-top: 15px;">
+        <div class="feature-item" style="margin-top: 15px;">
           <div class="container">
             <div class="row">
               <div class="col-4">
@@ -319,30 +319,30 @@ $().ready(function(){
                   <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                       <img src="../../public/assets/images/icon_infinite_light.png" width="100%" height="100%" />
                   </div>
-                  <h5 class="text-center my-4">Unlimited Discounts and offers</h5>
                 </div>
+                <p class="text-center my-4 feature-caption">Unlimited Discounts and offers</p>
               </div>
               <div class="col-4">
                 <div class="mx-auto feature-card">
                   <div class="bg-primary-thick rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                       <img src="../../public/assets/images/icon_wallet_light.png" width="100%" height="100%" />
                   </div>
-                  <h5 class="text-center my-4">Discounts, Guaranteed</h5>
                 </div>
+                <p class="text-center my-4 feature-caption">Discounts, Guaranteed</p>
               </div>
               <div class="col-4">
                 <div class="mx-auto feature-card">
                   <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                       <img src="../../public/assets/images/icon_star_light.png" width="100%" height="100%" />
                   </div>
-                  <h5 class="text-center my-4">Points on every transaction</h5>
                 </div>
+                <p class="text-center my-4 feature-caption">Points on every transaction</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div style="height: 260px;">
+        <div class="feature-item">
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-4">
@@ -350,16 +350,16 @@ $().ready(function(){
                   <div class="bg-primary-thin rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                       <img src="../../public/assets/images/icon_clock_light.png" width="100%" height="100%" />
                   </div>
-                  <h5 class="text-center my-4">Track your savings</h5>
                 </div>
+                <p class="text-center my-4 feature-caption">Track your savings</p>
               </div>
               <div class="col-4">
                 <div class="mx-auto feature-card">
                   <div class="bg-primary-normal rounded-4 p-3 p-sm-4 mx-2 mx-sm-4">
                       <img src="../../public/assets/images/icon_phone_light.png" width="100%" height="100%" />
                   </div>
-                  <h5 class="text-center my-4">Brands information</h5>
                 </div>
+                <p class="text-center my-4 feature-caption">Brands information</p>
               </div>
             </div>
           </div>
@@ -379,7 +379,7 @@ $().ready(function(){
           </div>
         </div>
 
-        <div id="carouselEventIndicators" style="padding-bottom: 4rem;" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+        <div id="carouselEventIndicators" style="padding-bottom: 0.75rem;" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
           <div class="carousel-indicators">
             <div data-bs-target="#carouselEventIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></div>
             <div data-bs-target="#carouselEventIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></div>
@@ -388,7 +388,7 @@ $().ready(function(){
             <div class="carousel-item active">
               <div class="w-75 mx-auto rounded-4" style="background: linear-gradient(45deg, #2424FF, #1B0C75);">
 
-                <div class="container p-3 p-lg-5">
+                <div class="container px-5 pt-2 pb-5 p-lg-5">
                   <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
                     <div class="col-12 col-lg-5">
                       <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-start">SPL</h1>
@@ -407,7 +407,7 @@ $().ready(function(){
               <div class="w-75 mx-auto rounded-4" style="background: linear-gradient(45deg, #2424FF, #1B0C75);">
 
 
-                <div class="container p-3 p-lg-5">
+                <div class="container px-5 pt-2 pb-5 p-lg-5">
                   <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
                     <div class="col-12 col-lg-5">
                       <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-start">SPL</h1>
@@ -442,7 +442,7 @@ $().ready(function(){
         <div class="container overflow-hidden pb-4">
           <div class="row g-4">
             <div class="col-12 col-md-6 col-lg-4 align-self-center">
-              <div class="bg-white rounded-4 p-3">
+              <div class="shadow bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
                 <span class="fs-5 fw-bold text-primary-thin lh-1 mb-3">Katie Simpson</span>
@@ -450,7 +450,7 @@ $().ready(function(){
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 align-self-center">
-              <div class="bg-white rounded-4 p-3">
+              <div class="shadow bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
                 <span class="fs-5 fw-bold text-primary-thin lh-1 mb-3">Marie Ulfa</span>
@@ -458,7 +458,7 @@ $().ready(function(){
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 align-self-center">
-              <div class="bg-white rounded-4 p-3">
+              <div class="shadow bg-white rounded-4 p-3">
                 <img src="../../public/assets/images/symbol.png" />
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
                 <span class="fs-5 fw-bold text-primary-thin lh-1 mb-3">Richard Blok</span>
@@ -578,7 +578,14 @@ $().ready(function(){
   margin: 0 auto;
 }
 .feature-card {
-  width: 100%;
+  width: 75%;
+}
+.feature-item {
+  height: 200px;
+}
+.feature-caption {
+  font-size: 1rem;
+  font-weight: 500;
 }
 .feature-bg {
   height: 0 !important;
@@ -588,7 +595,7 @@ $().ready(function(){
   display: none;
 }
 .event-card {
-  height: 100px;
+  height: 200px;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -620,6 +627,13 @@ $().ready(function(){
   .feature-card {
     width: 100%;
   }
+  .feature-item {
+    height: 260px;
+  }
+  .feature-caption {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
   .feature-bg {
     height: 0 !important;
   }
@@ -628,7 +642,7 @@ $().ready(function(){
     display: none;
   }
   .event-card {
-    height: 100px;
+    height: 200px;
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -658,6 +672,13 @@ $().ready(function(){
   .feature-card {
     width: 75%;
   }
+  .feature-item {
+    height: 260px;
+  }
+  .feature-caption {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
   .feature-bg {
     height: 100% !important;
   }
@@ -666,7 +687,7 @@ $().ready(function(){
     display: none;
   }
   .event-card {
-    height: 100px;
+    height: 200px;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -696,6 +717,15 @@ $().ready(function(){
   .feature-card {
     width: 50%;
   }
+  .feature-item {
+    height: 260px;
+  }
+  .feature-caption {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 70%;
+  }
   .feature-bg {
     height: 100% !important;
   }
@@ -705,6 +735,9 @@ $().ready(function(){
   }
   .event-card {
     height: 200px;
+  }
+  .carousel-indicators {
+    justify-content: start;
   }
 }
 /* X-Large devices (large desktops, 1200px and up) */
@@ -866,11 +899,11 @@ $().ready(function(){
 }
 
 .carousel-indicators [data-bs-target] {
-  width: 20px; height: 20px;
-  background-color: gray;
+  width: 15px; height: 15px;
+  background-color: rgba(255,255,255,0.4);
 }
 .carousel-indicators .active {
-  background-color: #EA6838;
+  background-color: white;
 }
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #D1D1D1;
