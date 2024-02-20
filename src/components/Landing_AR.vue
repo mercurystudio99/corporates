@@ -192,7 +192,7 @@ defineProps({
     </section>
 
     <!-- mobile app section -->
-    <section class="mt-50">
+    <section class="mt-50 screenshot-main">
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-12">
@@ -216,6 +216,49 @@ defineProps({
         </div>
         <div class="mx-1 mx-lg-4">
           <img src="../../public/assets/images/phone5.png" width="100%" style="min-width: 100px;"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- mobile app section in Mobile version -->
+    <section class="mt-50 screenshot-mobile">
+      <div class="position-relative">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">تطبيق يعكس هوية شركتك</h2>
+            </div>
+          </div>
+        </div>
+
+        <div id="carouselMobileIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone1.png" width="100%"/>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone2.png" width="100%"/>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone3.png" width="100%"/>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone4.png" width="100%"/>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone5.png" width="100%"/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -557,6 +600,12 @@ defineProps({
   left: 0;
   margin: 0 auto;
 }
+.screenshot-main {
+  display: none;
+}
+.screenshot-mobile {
+  display: block;
+}
 .feature-card {
   width: 75%;
 }
@@ -599,6 +648,12 @@ defineProps({
     left: 0;
     margin: 0 auto;
   }
+  .screenshot-main {
+    display: none;
+  }
+  .screenshot-mobile {
+    display: block;
+  }
   .feature-card {
     width: 100%;
   }
@@ -640,6 +695,13 @@ defineProps({
     width: 550px;
     left: 0%;
   }
+  .screenshot-main {
+    display: block;
+  }
+  .screenshot-mobile {
+    display: none;
+  }
+
   .feature-card {
     width: 75%;
   }

@@ -205,7 +205,7 @@ $().ready(function(){
     </section>
 
     <!-- mobile app section -->
-    <section class="mt-50">
+    <section class="mt-50 screenshot-main">
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-12">
@@ -216,19 +216,62 @@ $().ready(function(){
 
       <div class="d-flex overflow-hidden justify-content-center px-1 px-lg-4 my-4">
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone1.png" />
+          <img src="../../public/assets/images/phone1.png" width="100%" style="min-width: 100px;"/>
         </div>
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone2.png" />
+          <img src="../../public/assets/images/phone2.png" width="100%" style="min-width: 100px;"/>
         </div>
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone3.png" />
+          <img src="../../public/assets/images/phone3.png" width="100%" style="min-width: 100px;"/>
         </div>
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone4.png" />
+          <img src="../../public/assets/images/phone4.png" width="100%" style="min-width: 100px;"/>
         </div>
         <div class="mx-1 mx-lg-4">
-          <img src="../../public/assets/images/phone5.png" />
+          <img src="../../public/assets/images/phone5.png" width="100%" style="min-width: 100px;"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- mobile app section in Mobile version -->
+    <section class="mt-50 screenshot-mobile">
+      <div class="position-relative">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">App with your company identity</h2>
+            </div>
+          </div>
+        </div>
+
+        <div id="carouselMobileIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone1.png" width="100%"/>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone2.png" width="100%"/>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone3.png" width="100%"/>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone4.png" width="100%"/>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-50 mx-auto">
+                <img src="../../public/assets/images/phone5.png" width="100%"/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -577,6 +620,12 @@ $().ready(function(){
   right: 0;
   margin: 0 auto;
 }
+.screenshot-main {
+  display: none;
+}
+.screenshot-mobile {
+  display: block;
+}
 .feature-card {
   width: 75%;
 }
@@ -624,6 +673,12 @@ $().ready(function(){
     right: 0;
     margin: 0 auto;
   }
+  .screenshot-main {
+    display: none;
+  }
+  .screenshot-mobile {
+    display: block;
+  }
   .feature-card {
     width: 100%;
   }
@@ -668,6 +723,12 @@ $().ready(function(){
     position: absolute;
     width: 550px;
     right: 0%;
+  }
+  .screenshot-main {
+    display: block;
+  }
+  .screenshot-mobile {
+    display: none;
   }
   .feature-card {
     width: 75%;
