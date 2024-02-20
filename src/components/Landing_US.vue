@@ -438,7 +438,11 @@ $().ready(function(){
                       <p class="lead text-white text-center text-lg-start">The stories about what they love about our services.</p>
                     </div>
                     <div class="col-12 col-lg-7">
-                      <div class="w-80 mx-auto rounded-4 bg-light event-card"></div>
+                      <div class="w-80 mx-auto rounded-4 bg-light">
+                        <div class="ratio ratio-16x9">
+                          <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"></iframe>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -457,7 +461,11 @@ $().ready(function(){
                       <p class="lead text-white text-center text-lg-start">The stories about what they love about our services.</p>
                     </div>
                     <div class="col-12 col-lg-7">
-                      <div class="w-80 mx-auto rounded-4 bg-light event-card"></div>
+                      <div class="w-80 mx-auto rounded-4 bg-light">
+                        <div class="ratio ratio-16x9">
+                          <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"></iframe>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
