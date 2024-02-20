@@ -471,7 +471,7 @@ $().ready(function(){
     </section>
 
     <!-- testimonial section -->
-    <section class="mt-50 position-relative">
+    <section class="mt-50 position-relative screenshot-main">
       <div class="position-absolute bg-image w-25 feature-bg bottom-0" style="background-image: url('assets/images/bg_testimonial.png'); background-size: contain; background-repeat: no-repeat;"></div>
       <div class="position-relative">
         <div class="container">
@@ -509,6 +509,54 @@ $().ready(function(){
               </div>
             </div>
 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial section in Mobile version -->
+    <section class="mt-50 screenshot-mobile">
+      <div class="position-relative">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">This is What Our Clients said</h2>
+            </div>
+          </div>
+        </div>
+
+        <div id="carouselTestimonialIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="w-75 mx-auto py-4">
+                <div class="shadow bg-white rounded-4 p-3">
+                  <img src="../../public/assets/images/symbol.png" />
+                  <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
+                  <span class="fs-5 fw-bold text-primary-thin lh-1 mb-3">Katie Simpson</span>
+                  <h6 class="text-primary-thin">Company name</h6>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-75 mx-auto py-4">
+                <div class="shadow bg-white rounded-4 p-3">
+                  <img src="../../public/assets/images/symbol.png" />
+                  <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
+                  <span class="fs-5 fw-bold text-primary-thin lh-1 mb-3">Marie Ulfa</span>
+                  <h6 class="text-primary-thin">Company name</h6>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-75 mx-auto py-4">
+                <div class="shadow bg-white rounded-4 p-3">
+                  <img src="../../public/assets/images/symbol.png" />
+                  <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur</p>
+                  <span class="fs-5 fw-bold text-primary-thin lh-1 mb-3">Richard Blok</span>
+                  <h6 class="text-primary-thin">Company name</h6>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
