@@ -726,7 +726,7 @@ defineProps({
     font-size: 1.25rem;
   }
   .hero {
-    height: 100vh;
+    height: 600px;
   }
   .hero-title {
     text-align: start;
@@ -933,5 +933,11 @@ defineProps({
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #D1D1D1;
   opacity: 1; /* Firefox */
+}
+.active.carousel-item-start, .carousel-item-prev:not(.carousel-item-end) {
+  transform: translateX(100%);
+}
+.active.carousel-item-end, .carousel-item-next:not(.carousel-item-start) {
+  transform: translateX(-100%);
 }
 </style>
