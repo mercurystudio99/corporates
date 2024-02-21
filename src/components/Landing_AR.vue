@@ -42,9 +42,9 @@ defineProps({
           </div>
           <div class="hero-title-margin">
             <div class="col-12 col-md-7 col-lg-6 px-4" style="z-index: 3">
-              <h2 class="hero-title fw-bold lh-1 mb-3 text-white lh-sm">برنامج مكافآت <br /> الموظفين والعملاء</h2>
+              <h2 class="almarai-font-extrabold hero-title fw-bold lh-1 mb-3 text-white lh-sm">برنامج مكافآت <br /> الموظفين والعملاء</h2>
               <div class="d-grid gap-2 d-flex justify-content-center justify-content-md-start my-4">
-                <a href="#partnershipform" class="btn btn-primary btn-hero px-4 me-md-2 rounded-pill bg-secondary-normal border-0">عرض تجريبي</a>
+                <a href="#partnershipform" class="btn btn-primary btn-hero px-4 me-md-2 rounded-pill bg-secondary-normal border-0"><span class="almarai-font-regular">عرض تجريبي</span></a>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ defineProps({
     <!-- offers section -->
     <section class="mt-50">
       <div class="position-relative">
-        <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">أبرز العلامات التجارية</h2>
+        <h2 class="my-4 display-5 text-center text-primary-thick fw-bold almarai-font-bold">أبرز العلامات التجارية</h2>
         <!-- Carousel -->
         <div class="slider">
           <div class="slide-track">
@@ -124,7 +124,7 @@ defineProps({
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">خدمات برنامج الشركات</h2>
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold almarai-font-bold">خدمات برنامج الشركات</h2>
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@ defineProps({
             <div class="col-12 col-md-6 pr-lg-15">
               <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-between align-items-center">
-                  <span class="mx-2 text-primary-thick fw-normal">عروض لجميع موظفي الشركة وأفراد أسرهم</span>
+                  <span class="mx-2 text-primary-thick fw-normal almarai-font-regular">عروض لجميع موظفي الشركة وأفراد أسرهم</span>
                   <img src="../../public/assets/images/icon_infinite.png" width="50" height="50" />
                 </div>
               </div>
@@ -143,7 +143,7 @@ defineProps({
             <div class="col-12 col-md-6 pr-lg-15">
               <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-between align-items-center">
-                  <span class="mx-2 text-primary-thick fw-normal">شراء وتوصيل الهدايا للموظفين</span>
+                  <span class="mx-2 text-primary-thick fw-normal almarai-font-regular">شراء وتوصيل الهدايا للموظفين</span>
                   <img src="../../public/assets/images/icon_gift.png" width="50" height="50" />
                 </div>
               </div>
@@ -152,7 +152,7 @@ defineProps({
             <div class="col-12 col-md-6 pr-lg-15">
               <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-between align-items-center">
-                  <span class="mx-2 text-primary-thick fw-normal">شحن رصيد الموظف لشراء هدايا</span>
+                  <span class="mx-2 text-primary-thick fw-normal almarai-font-regular">شحن رصيد الموظف لشراء هدايا</span>
                   <img src="../../public/assets/images/icon_wallet.png" width="50" height="50" />
                 </div>
               </div>
@@ -161,7 +161,7 @@ defineProps({
             <div class="col-12 col-md-6 pr-lg-15">
               <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-between align-items-center">
-                  <span class="mx-2 text-primary-thick fw-normal">خدمة عملاء لضمان رضا  الموظفين</span>
+                  <span class="mx-2 text-primary-thick fw-normal almarai-font-regular">خدمة عملاء لضمان رضا  الموظفين</span>
                   <img src="../../public/assets/images/icon_tool.png" width="50" height="50" />
                 </div>
               </div>
@@ -170,7 +170,7 @@ defineProps({
             <div class="col-12 col-md-6 pr-lg-15">
               <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-between align-items-center">
-                  <span class="mx-2 text-primary-thick fw-normal">تنظيم الفعاليات الداخلية الخاصة بالشركة</span>
+                  <span class="mx-2 text-primary-thick fw-normal almarai-font-regular">تنظيم الفعاليات الداخلية الخاصة بالشركة</span>
                   <img src="../../public/assets/images/icon_congrat.png" width="50" height="50" />
                 </div>
               </div>
@@ -179,7 +179,7 @@ defineProps({
             <div class="col-12 col-md-6 pr-lg-15">
               <div class="rounded-end rounded-5 p-2 bg-gray">
                 <div class="d-flex justify-content-between align-items-center">
-                  <span class="mx-2 text-primary-thick fw-normal">إضافة عروض  بناء على طلب الشركة</span>
+                  <span class="mx-2 text-primary-thick fw-normal almarai-font-regular">إضافة عروض  بناء على طلب الشركة</span>
                   <img src="../../public/assets/images/icon_upload.png" width="50" height="50" />
                 </div>
               </div>
@@ -196,7 +196,7 @@ defineProps({
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-12">
-            <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">تطبيق يعكس هوية شركتك</h2>
+            <h2 class="my-4 display-5 text-center text-primary-thick fw-bold almarai-font-bold">تطبيق يعكس هوية شركتك</h2>
           </div>
         </div>
       </div>
@@ -226,7 +226,7 @@ defineProps({
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">تطبيق يعكس هوية شركتك</h2>
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold almarai-font-bold">تطبيق يعكس هوية شركتك</h2>
             </div>
           </div>
         </div>
@@ -266,7 +266,7 @@ defineProps({
     <!-- companies section -->
     <section class="mt-50">
       <div class="position-relative">
-        <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">شركاء يقدمون مزايا SDC App لموظفيهم</h2>
+        <h2 class="my-4 display-5 text-center text-primary-thick fw-bold almarai-font-bold">شركاء يقدمون مزايا SDC App لموظفيهم</h2>
         <!-- Carousel -->
         <div class="slider">
           <div class="slide-track2">
@@ -336,7 +336,7 @@ defineProps({
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-12">
-              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">مزايا التطبيق</h2>
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold almarai-font-bold">مزايا التطبيق</h2>
             </div>
           </div>
         </div>
@@ -404,7 +404,7 @@ defineProps({
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">فعاليات سابقة</h2>
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold almarai-font-bold">فعاليات سابقة</h2>
             </div>
           </div>
         </div>
@@ -421,8 +421,8 @@ defineProps({
                 <div class="container px-5 pt-2 pb-5 p-lg-5">
                   <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
                     <div class="col-12 col-lg-5">
-                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-end">سبل البريد السعودي</h1>
-                      <p class="lead text-white text-center text-lg-end">فعالية عن اليوم العالمي للصحة النفسية</p>
+                      <h1 class="display-5 fw-bold almarai-font-bold lh-1 mb-3 text-white text-center text-lg-end">سبل البريد السعودي</h1>
+                      <p class="lead text-white text-center text-lg-end almarai-font-regular">فعالية عن اليوم العالمي للصحة النفسية</p>
                     </div>
                     <div class="col-12 col-lg-7">
                       <div class="w-80 mx-auto rounded-4 bg-light">
@@ -443,8 +443,8 @@ defineProps({
                 <div class="container px-5 pt-2 pb-5 p-lg-5">
                   <div class="row flex-lg-row align-items-center g-2 g-lg-5 py-1">
                     <div class="col-12 col-lg-5">
-                      <h1 class="display-5 fw-bold lh-1 mb-3 text-white text-center text-lg-end">سبل البريد السعودي</h1>
-                      <p class="lead text-white text-center text-lg-end">فعالية عن اليوم العالمي للصحة النفسية</p>
+                      <h1 class="display-5 fw-bold almarai-font-bold lh-1 mb-3 text-white text-center text-lg-end">سبل البريد السعودي</h1>
+                      <p class="lead text-white text-center text-lg-end almarai-font-regular">فعالية عن اليوم العالمي للصحة النفسية</p>
                     </div>
                     <div class="col-12 col-lg-7">
                       <div class="w-80 mx-auto rounded-4 bg-light">
@@ -471,7 +471,7 @@ defineProps({
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-12">
-              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">آراء عملائنا</h2>
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold almarai-font-bold">آراء عملائنا</h2>
             </div>
           </div>
         </div>
@@ -511,7 +511,7 @@ defineProps({
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold">آراء عملائنا</h2>
+              <h2 class="my-4 display-5 text-center text-primary-thick fw-bold almarai-font-bold">آراء عملائنا</h2>
             </div>
           </div>
         </div>
@@ -557,24 +557,24 @@ defineProps({
         <div class="container px-0 px-lg-5 py-3">
           <div class="row flex-lg-row align-items-center g-1 g-md-3 g-lg-5 py-1">
             <div class="col-12 col-md-6">
-              <h1 class="display-5 fw-bold lh-2 text-white text-center text-md-start">نتطلع للعمل سوياً لتحقيق شراكة مثمرة!</h1>
+              <h1 class="display-5 fw-bold lh-2 text-white text-center text-md-start almarai-font-bold">نتطلع للعمل سوياً لتحقيق شراكة مثمرة!</h1>
             </div>
             <div class="col-12 col-md-6">
               <div class="w-80 mx-auto rounded-1 bg-white p-4">
                 <div class="mb-3 mx-2">
-                  <input type="text" class="form-control rounded-pill" placeholder="الاسم">
+                  <input type="text" class="form-control almarai-font-regular rounded-pill" placeholder="الاسم">
                 </div>
                 <div class="mb-3 mx-2">
-                  <input type="email" class="form-control rounded-pill" placeholder="الايميل">
+                  <input type="email" class="form-control almarai-font-regular rounded-pill" placeholder="الايميل">
                 </div>
                 <div class="mb-3 mx-2">
-                  <input type="text" class="form-control rounded-pill" placeholder="رقم الجوال">
+                  <input type="text" class="form-control almarai-font-regular rounded-pill" placeholder="رقم الجوال">
                 </div>
                 <div class="mb-3 mx-2">
-                  <input type="text" class="form-control rounded-pill" placeholder="اسم الشركة">
+                  <input type="text" class="form-control almarai-font-regular rounded-pill" placeholder="اسم الشركة">
                 </div>
                 <div class="d-grid mx-2">
-                  <button class="btn btn-primary rounded-pill bg-secondary-normal border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">ارسال</button>
+                  <button class="btn btn-primary rounded-pill bg-secondary-normal border-0" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="almarai-font-regular">ارسال</span></button>
                 </div>
               </div>
             </div>
@@ -589,7 +589,7 @@ defineProps({
         <hr>
         <div class="row flex-sm-row-reverse g-3">
           <div class="col-12 col-sm-6 col-md-4">
-            <p class="mx-1 fw-bold text-primary-thick">حمل التطبيق</p>
+            <p class="mx-1 fw-bold almarai-font-bold text-primary-thick">حمل التطبيق</p>
             <div class="d-flex flex-wrap">
               <a href="javascript:void(0);"><img src="../../public/assets/images/download_appgallery.png" class="mx-1"/></a>
               <a href="javascript:void(0);"><img src="../../public/assets/images/download_appstore.png" class="mx-1"/></a>
@@ -597,11 +597,11 @@ defineProps({
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-3">
-            <span class="mx-1 fw-bold text-primary-thick">تواصل معنا</span>
+            <span class="mx-1 fw-bold almarai-font-bold text-primary-thick">تواصل معنا</span>
             <p class="mx-1 my-3 text-primary-thick">920026612 / 0580033345</p>
           </div>
           <div class="col-12 col-sm-6 col-md-3">
-            <p class="mx-1 fw-bold text-primary-thick">تابعنا</p>
+            <p class="mx-1 fw-bold almarai-font-bold text-primary-thick">تابعنا</p>
             <div class="d-flex flex-wrap my-1">
               <div class="border border-1 rounded-circle mx-1">
                 <a href="javascript:void(0);"><img src="../../public/assets/images/contact_facebook.png" /></a>
@@ -630,6 +630,15 @@ defineProps({
 </template>
 
 <style scoped>
+.almarai-font-bold {
+    font-family: "Almarai Bold";
+}
+.almarai-font-extrabold {
+    font-family: "Almarai ExtraBold";
+}
+.almarai-font-regular {
+    font-family: "Almarai Regular";
+}
 .btn-hero {
   padding: 0.25rem 0.5rem;
   font-size: 1rem;
