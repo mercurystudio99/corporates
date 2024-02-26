@@ -14,7 +14,7 @@ defineProps({
       <div class="modal-content">
         <div class="modal-body">
           <div class="d-flex justify-content-between align-items-center">
-            <h5 class="modal-title">Success submitted!</h5>
+            <h5 class="modal-title">Bitcoin Rate: {{ message.rate }} {{ message.code }}</h5>
             <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
         </div>
@@ -574,7 +574,7 @@ defineProps({
                   <input type="text" class="form-control almarai-font-regular rounded-pill" placeholder="اسم الشركة">
                 </div>
                 <div class="d-grid mx-2">
-                  <button class="btn btn-primary rounded-pill bg-secondary-normal border-0" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="almarai-font-regular">ارسال</span></button>
+                  <button class="btn btn-primary rounded-pill bg-secondary-normal border-0" @click="onSubmit"><span class="almarai-font-regular">ارسال</span></button>
                 </div>
               </div>
             </div>
@@ -628,6 +628,26 @@ defineProps({
     </section>
 </div>
 </template>
+
+<script>
+import axios from "axios"
+
+export default {
+  data() {
+    return {
+      message: {}
+    }
+  },
+  methods: {
+    async onSubmit() {
+      const { data } = await axios.get("https://api.coindesk.com/v1/bpi/currentprice.json");
+      this.message = data.bpi.USD;
+      var modal = new bootstrap.Modal(document.getElementById('exampleModal'));
+      modal.show();
+    }
+  }
+}
+</script>
 
 <style scoped>
 .almarai-font-bold {

@@ -5,8 +5,8 @@ import Landing_AR from './components/Landing_AR.vue'
 
 <template>
   <main>
-    <!-- <Landing_US /> -->
-    <Landing_AR />
+    <Landing_US />
+    <!-- <Landing_AR /> -->
   </main>
 </template>
 
